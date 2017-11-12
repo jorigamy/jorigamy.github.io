@@ -10,8 +10,6 @@ keywords:
 img:
 image: assets/images/antonio-trento-logo-social.jpg
 canonical:
-pagination:
-  enabled: true
 ---
 <!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/shard-1-5x-3.png" alt="Shard" class="shard">
 <!-- Welcome Section -->
@@ -30,7 +28,7 @@ pagination:
         <div id="cards" class="container mb-2" style="padding-bottom: 1px">
             <div class="example col-md-12 ml-auto mr-auto">
                 <div class="row">
-                  {% for post in paginator.posts %}
+                  {% for post in site.posts %}
                     <div class="col-md-12 col-lg-4">
                         <div class="card">{% if post.img %}<img class="card-img-top ll-image" data-img-src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ post.img }}" alt="{{ post.title }} image missing">{% endif %}
                             <div class="card-body">
@@ -42,21 +40,5 @@ pagination:
                 </div>
             </div>
         </div>
-
-        {% if paginator.total_pages > 1 %}
-        <ul>
-          {% if paginator.previous_page %}
-          <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-          </li>
-          {% endif %}
-          {% if paginator.next_page %}
-          <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-          </li>
-          {% endif %}
-        </ul>
-        {% endif %}
-
       </div>
 </div>

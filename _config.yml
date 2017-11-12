@@ -59,7 +59,7 @@ social:
     - https://www.facebook.com/lantoniotrento
     - https://www.linkedin.com/in/antoniotrento
     - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
-    - https://github.com/antoniotrento
+    - https://github.com/jorigamy/jorigamy.github.io
     - https://keybase.io/antoniotrento
 twitter:
   username: lantoniotrento
@@ -73,13 +73,10 @@ facebook:
 markdown: kramdown
 
 #theme: minima
-
-
 plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-seo-tag
-
 
 
 # Exclude from processing.

@@ -1,0 +1,89 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Jorigamy a jekyll porting of Shards UI Kit
+email: lantoniotrento@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Jorigamy is a jekyll theme that use Shards UI kit as a front end, is made with bootstrap 4 bu Antonio Trento.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jorigamy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+favicon:
+excerpt_separator: "<!--more-->"
+
+author :
+  name : Antonio Trento
+  email : lantoniotrento@gmail.com
+  github : jorigamy/jorigamy.github.io
+  twitter : lantoniotrento
+  facebook: lantoniotrento
+  linkedin: antoniotrento
+  instagram: lantoniotrento
+  pinterest: antoniotrento
+  google: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
+  feedburner :
+
+google :
+    tracking_id : 'UA-109407288-1' # Id google analitics
+    optimize_id : 'GTM-MPKVJB9' # I'id di google optimize per A/B Testing
+    tagmanager_id: 'GTM-5VNXBR4' # id di google tag manager
+    ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
+
+disqus :
+    short_name : blog-antonio-trento
+    # how to use
+    #      {% if site.disqus.short_name %}
+    #        {% include JB/disqus.html %}
+    #      {% endif %}
+
+
+# data for jekyll-seo-tags plugins
+social:
+  name: lantoniotrento
+  links:
+    - https://twitter.com/lantoniotrento
+    - https://www.facebook.com/lantoniotrento
+    - https://www.linkedin.com/in/antoniotrento
+    - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
+    - https://github.com/antoniotrento
+    - https://keybase.io/antoniotrento
+twitter:
+  username: lantoniotrento
+
+facebook:
+ app_id: 509727322725898 #the app id from https://developers.facebook.com/
+ admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+
+# Build settings
+markdown: kramdown
+#theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sass-converter
+  - jekyll-seo-tag
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

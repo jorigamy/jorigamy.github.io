@@ -1,0 +1,29 @@
+---
+layout: blog
+title: Archive
+tagline: Tutti i post creati da Antonio Trento
+tags :
+img :
+image: assets/images/antonio-trento-logo-social.jpg
+img-mobile :
+author : Antonio Trento
+css:
+js:
+bgcolor:
+keywords: archivio, posts, blog, Antonio Trento, web marketing, advertising, web design, grow hacking
+canonical: {{ page.url }}
+---
+
+
+
+
+	<ul>
+   {% for post in site.posts %}
+	    <li>
+		<a {% if post.en %}class="en"{% endif %}{% if post.serif %}class="serif"{% endif %} href="{{ post.url }}">
+		<time datetime='{{ post.date | date: "%Y-%m-%d" }}'>{{ post.date | date: "%-d %B %Y" }}</time>
+		{{ post.title }}
+		</a>
+	   </li>
+   {% endfor %}
+	</ul>

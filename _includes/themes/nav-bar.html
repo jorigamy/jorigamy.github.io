@@ -1,0 +1,44 @@
+
+<header class="sticky-header">
+  <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light px-0">
+      <a class="navbar-brand mr-5" href="{{ site.url }}">
+        <img src="{{ site.url }}/{{ site.baseurl }}assets/images/app-promo/shards-logo-green.svg" class="mr-2" alt="Shards - Agency Landing Page">
+        Jorigamy
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ site.url }}">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.url }}/app.html">App template</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.url }}/agency.html">Agency template</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.url }}/blog.html">Blog</a>
+          </li>
+        </ul>
+
+        <!-- Social Icons -->
+        <ul class="header-social-icons navbar-nav ml-auto">
+          {% if site.author.github %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Fork it" href="https://github.com/{{ site.author.github }}" rel="nofollow" target="_blank"><i class="fa fa-github"></i></a></li>{% endif %}
+          {% if site.author.facebook %}<li class="nav-item">
+            <a class="nav-link" data-toggle="tooltip" title="Follow on facebook!" href="https://www.facebook.com/{{ site.author.facebook }}" rel="nofollow" target="_blank" title="Share on Facebook"> <i class="fa fa-facebook"></i></a>
+          </li>{% endif %}
+          {% if site.author.linkedin %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Connect with me" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn" rel="nofollow" target="_blank"><i class="fa fa-linkedin"></i></a></li>{% endif %}
+          {% if site.author.twitter %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Tweet together" href="https://twitter.com/{{ site.author.twitter }}" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a></li>{% endif %}
+          {% if site.author.google %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Enter in my community" href="{{ site.author.google }}" rel="nofollow" target="_blank"><i class="fa fa-google-plus"></i></a></li>{% endif %}
+
+        </ul>
+      </div>
+    </nav>
+    <!-- / Navigation -->
+  </div> <!-- .container -->
+</header>

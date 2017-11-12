@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow:
+Disallow: /_includes/
+Disallow: /_drafts/
+Disallow: /_config.yml
+Disallow: /_layouts/
+Disallow: /_plugins/
+Disallow: /keybase.txt
+
+Sitemap: https://jorigamy.github.io/sitemap.txt

@@ -22,7 +22,10 @@ url: "https://jorigamy.github.io" # the base hostname & protocol for your site, 
 
 favicon:
 excerpt_separator: "<!--more-->"
-paginate: 6
+
+#Finding solution for pagination, now is disabled
+
+# paginate: 6
 
 
 author :

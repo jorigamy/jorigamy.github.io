@@ -1,0 +1,47 @@
+<!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{% if page.head-img %}{{ page.head-img }}{% else %}shard-1-5x-3.png{% endif %}" alt="Shard" class="shard">
+<!-- Welcome Section -->
+<div class="welcome d-flex justify-content-center flex-column">
+    <div class="inner-wrapper mt-auto mb-auto">
+        <h1 class="slide-in">{{ page.title }}</h1>
+        <p class="slide-in">{{ page.tagline }}</p>
+        <div class="action-links slide-in"><a href="https://github.com/jorigamy/jorigamy.github.io" class="btn btn-primary btn-pill align-self-center mr-2"><i class="fa fa-github mr-1"></i> Fork Me</a> <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-outline-light btn-pill align-self-center"> Read It</a></div>
+    </div>
+    <div class="product-by">
+
+            <p>Made By {{ site.author.name }} - Tagged with  {{page.tags | array_to_sentence_string | replace:'and',''}}</p>
+    </div>
+</div>
+
+<!-- Page Content -->
+<div class="page-content">
+    <!-- Content -->
+    <div class="content clearfix">
+        <div id="introduction" class="container">
+          <div class="row">
+            <div class="col-lg-8">
+
+              <div class="section-title ml-auto mr-auto">
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.img }}" class="img-fluid">
+                <p>Made By {{ site.author.name }} - Tagged with  {{page.tags | array_to_sentence_string | replace:'and',''}}</p>
+              </div>
+    					{% include JB/ads-block.html %}
+    					<br />
+    					<div class="section-title ml-auto mr-auto">
+
+    						{{ content }}
+    					</div>
+    						<br />
+    						{% include JB/ads-block.html %}
+    						<br />
+    					<div class="section-title ml-auto mr-auto">
+    						{% include JB/disqus.html %}
+
+    					</div>
+
+
+            </div>
+            <div class="col-lg-4">{% include side-bar.html %}</div>
+          </div>
+				</div>
+		</div>
+</div>

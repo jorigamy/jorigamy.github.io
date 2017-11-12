@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-half
 title:  "Welcome to Jekyll!"
 tagline: "Hello world from a new Jekyll blog"
 date:   2017-11-08 22:43:35 +0100
@@ -7,7 +7,7 @@ categories: jekyll update
 tags: [ jekyll, update ]
 img: 1.jpg
 head-img: shard-1-5x-3.png
-image: assets/images/shard-1-5x-3.png
+image: assets/images/1.jpg
 ---
 You’ll find this post in your `_posts` directory.
 

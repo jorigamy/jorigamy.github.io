@@ -1,9 +1,14 @@
-
-      <ul class="social-nav model-4">
-        <li><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" class="google-plus" rel="nofollow" target="_blank" title="Share on Google plus"><i class="fa fa-google-plus"></i></a></li>
-        <li><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}%20{{ page.description }}&source=LinkedIn" rel="nofollow" target="_blank" title="Share on LinkedIn" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" class="twitter" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
-        <li>
-          <a href="https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" class="facebook" rel="nofollow" target="_blank" title="Share on Facebook"> <i class="fa fa-facebook"></i></a>
+      <nav class="navbar navbar-expand-lg navbar-light px-0">
+        <span class="navbar-brand mr-5">
+          Share
+        </span>
+      <ul class="header-social-icons navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}/{{ page.url }}" class="nav-link" rel="nofollow" target="_blank" title="Share on Facebook"> <i class="fa fa-facebook"></i></a>
         </li>
+        <li class="nav-item"><a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}/{{ page.url }}&title={{ page.title }}%20{{ page.description }}&source=LinkedIn" rel="nofollow" target="_blank" title="Share on LinkedIn" class="nav-link"><i class="fa fa-linkedin"></i></a></li>
+        <li class="nav-item"><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}/{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" class="nav-link" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li>
+        <li class="nav-item"><a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}/{{ page.url }}" class="nav-link" rel="nofollow" target="_blank" title="Share on Google plus"><i class="fa fa-google-plus"></i></a></li>
+
       </ul>
+      </nav>

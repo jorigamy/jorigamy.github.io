@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+description: All the posts of jorigamy.github.io theme.
 group: "navigation"
 tags :
 author : Antonio Trento
@@ -9,16 +10,12 @@ js:
 keywords:
 img:
 image: assets/images/antonio-trento-logo-social.jpg
+floating: shard-1-5x-3.png
+btn-link: https://github.com/jorigamy/jorigamy.github.io
 ---
-<!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/shard-1-5x-3.png" alt="Shard" class="shard">
-<!-- Welcome Section -->
-<div class="welcome d-flex justify-content-center flex-column">
-    <div class="inner-wrapper mt-auto mb-auto">
-        <h1 class="slide-in">Blog</h1>
-        <p class="slide-in">All the posts of jorigamy.github.io theme.</p>
-        <div class="action-links slide-in"><a href="https://github.com/jorigamy/jorigamy.github.io" class="btn btn-primary btn-pill align-self-center mr-2"><i class="fa fa-github mr-1"></i> See Posts</a> <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-outline-light btn-pill align-self-center">Learn More</a></div>
-    </div>
-</div>
+
+{% include theme/floating.html %}
+
 <!-- Page Content -->
 <div id = "introduction" class="page-content">
     <!-- Content -->

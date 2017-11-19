@@ -28,7 +28,7 @@ image: assets/images/antonio-trento-logo-social.jpg
             <div class="example col-md-12 ml-auto mr-auto">
                 <div class="row">
                   {% for post in site.posts %}
-                    <div class="col-md-12 col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                         <div style="margin-top:2em" class="card">{% if post.img %}<img class="card-img-top ll-image" data-img-src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ post.img }}" alt="{{ post.title }} image missing">{% endif %}
                             <div class="card-body">
                                 <h4 class="card-title">{{ post.title }}</h4>

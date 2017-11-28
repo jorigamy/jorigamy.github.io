@@ -82,7 +82,10 @@ lantoniotrento@gmail.com
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
       <script src="{{ site.url }}{{ site.baseurl }}/assets/js/shards.js?v=1.0.2"></script>
       <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js?v=1.0.2"></script>
-
+      <script src="{{ site.url }}{{ site.baseurl }}/assets/js/simpleParallax.min.js"></script>
+      <script>$(document).ready(function() {
+          $('.simple-parallax').simpleParallax();
+      });</script>
     <!--Custom script loaded by children page-->
     {% if page.js %}<script async src="{{ site.url }}{{ site.baseurl }}/assets/js/{{ page.js }}"></script>{% endif %}
 

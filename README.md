@@ -11,7 +11,9 @@ To use parallax effect more info at [SimpleParallax website](https://anakao-them
 <img class="simple-parallax" src="path">
 ```
 
-# Animate.css
+## Animate.css
+
+This theme is equipped with [Animate.css](https://daneden.github.io/animate.css/) to create simple and quick animations
 
 | ﻿Class Name | | | |
 |--------------------|--------------------|--------------------|--------------------|

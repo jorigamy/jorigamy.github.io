@@ -82,6 +82,7 @@ plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-seo-tag
+  - amp-jekyll
 
 
 # Exclude from processing.

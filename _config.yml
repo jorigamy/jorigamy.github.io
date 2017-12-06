@@ -84,6 +84,8 @@ plugins:
   - jekyll-seo-tag
   - amp-jekyll
 
+  ampdir: amp
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

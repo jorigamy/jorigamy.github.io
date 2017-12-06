@@ -34,6 +34,10 @@ lantoniotrento@gmail.com
         {{ page.custom-head }}
       {% endif %}
 
+      {% if page.path contains '_posts' %}
+        <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+      {% endif %}
+
 	<!--[if IE]>
 		<script type="text/javascript">
 			 var console = { log: function() {} };

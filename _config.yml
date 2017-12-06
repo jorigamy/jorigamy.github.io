@@ -20,7 +20,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jorigamy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-favicon:
 excerpt_separator: "<!--more-->"
 
 #Finding solution for pagination, now is disabled
@@ -28,6 +27,8 @@ excerpt_separator: "<!--more-->"
 # paginate: 6
 
 logo: /assets/images/shard-1-5x-3.png
+favicon: jorigamy-logo.svg
+navbar-logo: jorigamy-logo.svg
 
 author :
   name : Antonio Trento

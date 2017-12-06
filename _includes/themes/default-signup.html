@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--
+Antonio Trento
+https://www.linkedin.com/in/antoniotrento/
+https://twitter.com/lantoniotrento
+lantoniotrento@gmail.com
+-->
+
+<html lang="it" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+
+    {% seo %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- CSS loaded by the children page -->
+    {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/css/{{ page.css }}" />{% endif %}
+
+    {% if site.google.tracking_id %}
+      {% include JB/analytics.html %}
+    {% endif %}
+    {% if site.google.ad_client %}
+      {% include JB/ad-block.html %}
+    {% endif %}
+
+
+    <!--[if lte IE 8]><script src="{{ site.url }}{{ site.baseurl }}/assets/js/eventually/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/eventually/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/eventually/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/eventually/ie9.css" /><![endif]-->
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+    <link href="{{ site.url }}{{ site.baseurl }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ site.url }}{{ site.baseurl }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+
+	  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '509727322725898',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<!--Monirtoraggio click in uscita analitycs-->
+<script>
+/**
+* Funzione che monitora un clic su un link in uscita in Analytics.
+* Questa funzione prende in considerazione e utilizza una stringa dell'URL valido
+* Come etichetta evento. L'impostazione del metodo di trasporto su 'beacon' consente l'invio dell'hit
+* utilizzando 'navigator.sendBeacon' in un browser che lo supporta.
+*/
+var trackOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
+</script>
+  </head>
+  <body>
+
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.JB.analytics.google.tagmanager_id }}"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+
+      {{ content }}
+
+
+
+
+<!-- ********************* Grads SCRIPTING ******************************-->
+	<!--Custom script loaded by children page-->
+	{% if page.js %}<script src="{{ site.url }}{{ site.baseurl }}/assets/js/{{ page.js }}"></script>{% endif %}
+		<!-- Scripts -->
+			<!--[if lte IE 8]><script src="{{ BASE_PATH }}/assets/js/eventually/ie/respond.min.js"></script><![endif]-->
+
+
+
+
+
+
+
+  </body>
+</html>

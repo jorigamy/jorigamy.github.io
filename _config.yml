@@ -84,7 +84,7 @@ plugins:
   - jekyll-seo-tag
   - amp-jekyll
 
-  ampdir: amp
+  
 
 
 # Exclude from processing.

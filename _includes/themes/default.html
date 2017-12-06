@@ -35,7 +35,9 @@ lantoniotrento@gmail.com
       {% endif %}
 
       {% if page.path contains '_posts' %}
-        <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+        {% unless page.skip_amp %}
+          <link rel="amphtml" href="{{ page.id | prepend: '/amp' | prepend: site.baseurl | prepend: site.url | append: '.html' }}">
+        {% endunless %}
       {% endif %}
 
 	<!--[if IE]>

@@ -22,7 +22,9 @@ url: "https://jorigamy.github.io" # the base hostname & protocol for your site, 
 
 excerpt_separator: "<!--more-->"
 
-permalink: /:title/
+#Permalinks
+
+#permalink: /:title/
 #permalink: /:categories/:title/
 #permalink: /:year/:month/:day/:title.html
 
@@ -87,10 +89,10 @@ plugins:
   - jekyll-sass-converter
   - jekyll-seo-tag
 
-gems:
-  - amp-jekyll
+#gems:
+#  - amp-jekyll
 
-ampdir: amp
+#ampdir: amp
 
 
 

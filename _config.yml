@@ -22,7 +22,8 @@ url: "https://jorigamy.github.io" # the base hostname & protocol for your site, 
 
 excerpt_separator: "<!--more-->"
 
-permalink: /:categories/:title/
+permalink: /:title/
+#permalink: /:categories/:title/
 #permalink: /:year/:month/:day/:title.html
 
 #Finding solution for pagination, now is disabled

@@ -69,7 +69,7 @@ social:
 twitter:
   username: lantoniotrento
 
-ampdir: amp  
+ampdir: amp
 
 facebook:
  app_id: 509727322725898 #the app id from https://developers.facebook.com/
@@ -84,7 +84,11 @@ plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-seo-tag
+
+gems:
   - amp-jekyll
+
+ampdir: amp  
 
 
 

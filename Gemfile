@@ -27,6 +27,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Jekyll SEO tags plugins
 gem 'jekyll-seo-tag'
-gem 'amp-jekyll'
+#gem 'amp-jekyll'
 
 # gem 'jekyll-paginate'

@@ -95,6 +95,23 @@ plugins:
 
 #ampdir: amp
 
+#gallery
+
+# Collection settings
+collections:
+  photos:
+
+# Social settings
+500px_url:
+facebook_url: https://facebook.com/lantoniotrento
+github_url:
+gitlab_url:
+googleplus_url: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
+instagram_url: https://instagram.com/lantoniotrento
+linkedin_url: https://linkedin.com/in/antoniotrento
+pinterest_url: https://pinterest.com/antoniotrento
+slack_url:
+twitter_url: https://twitter.com/lantoniotrento
 
 
 

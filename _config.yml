@@ -114,6 +114,13 @@ slack_url:
 twitter_url: https://twitter.com/lantoniotrento
 
 
+# Gallery section
+
+gallery-title: Jorigamy
+gallery-description: >- # this means to ignore newlines until "baseurl:"
+  The gallery section of the jorigamy blog.
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

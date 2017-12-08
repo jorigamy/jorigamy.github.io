@@ -11,12 +11,12 @@ lantoniotrento@gmail.com
     <title>{{ site.title }}</title>
   	<meta charset="utf-8" />
   	<meta name="viewport" content="width=device-width, initial-scale=1" />
-  	<!--[if lte IE 8]><script src="{{ "/assets/js/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
-  	<link rel="stylesheet" href="{{ "/assets/gallery/main.css" | relative_url }}" />
-  	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "/assets/css/ie8.css" | relative_url }}" /><![endif]-->
-  	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "/assets/css/ie9.css" | relative_url }}" /><![endif]-->
+  	<!--[if lte IE 8]><script src="{{ "/assets/js/gallery/ie/html5shiv.js" | relative_url }}"></script><![endif]-->
+  	<link rel="stylesheet" href="{{ "/assets/css/gallery/main.css" | relative_url }}" />
+  	<!--[if lte IE 8]><link rel="stylesheet" href="{{ "/assets/css/gallery/ie8.css" | relative_url }}" /><![endif]-->
+  	<!--[if lte IE 9]><link rel="stylesheet" href="{{ "/assets/css/gallery/ie9.css" | relative_url }}" /><![endif]-->
   	{% seo %}
-  	<noscript><link rel="stylesheet" href="{{ "/assets/gallery/noscript.css" | relative_url }}" /></noscript>
+  	<noscript><link rel="stylesheet" href="{{ "/assets/css/gallery/noscript.css" | relative_url }}" /></noscript>
     <meta name="theme-color" content="#0067F4" />
     <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/{{ site.favicon }}" type="image/x-icon">
     <!-- CSS loaded by the children page -->
@@ -78,7 +78,7 @@ var trackOutboundLink = function(url) {
 	<!-- End Google Tag Manager (noscript) -->
   <!-- Main -->
 
-      <div id="main"> 
+      <div id="main">
 
       {{ content }}
 

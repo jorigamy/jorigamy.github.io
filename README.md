@@ -43,7 +43,7 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 ## Post Introduction
 
 ```
-<!--more--> # the post preview in the blog main page after this separator will not displayed
+<!--more--> # except separator the post preview in the blog main page after this separator will not displayed
 ```
 
 ## simpleParallax

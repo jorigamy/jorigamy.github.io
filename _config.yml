@@ -17,7 +17,7 @@
 title: Jorigamy
 email: lantoniotrento@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> for Jekyll.
+  Jorigamy is a porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> a bootstrap4 starter template intalled for Jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jorigamy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

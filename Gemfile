@@ -32,7 +32,7 @@ gem 'jekyll-seo-tag'
 
 # add fot heroku deploy button
 
-gem 'kramdown'
-gem 'rack-jekyll'
 gem 'rake'
-gem 'puma'
+gem 'foreman'
+gem 'thin'
+gem 'rack-contrib'

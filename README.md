@@ -11,6 +11,7 @@ You can:
 
 - Or fork it, rename and then [Deploy with cloudcannon](https://cloudcannon.com/)
 
+Are not you good at doing these things alone? Try following the installation guide on the [jorigamy wiki](https://github.com/jorigamy/jorigamy.github.io/wiki/Installation)
 
 # Feature inside
 

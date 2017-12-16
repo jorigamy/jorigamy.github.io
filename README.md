@@ -3,7 +3,7 @@
 # Jorigamy Jekyll Bootstrap4 theme for Github Pages
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/jorigamy/jorigamy.github.io/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/jorigamy/jorigamy.github.io) <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jorigamy/jorigamy.github.io) -->[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lantoniotrento)
 
-Jekyll template that use Bootstrap 4 [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt) with which you can create your website quickly and **completely free**.
+**Jekyll template that use Bootstrap 4** [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt) with which you can create your website quickly and **completely free**.
 
 To use it you can:
 

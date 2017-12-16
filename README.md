@@ -1,6 +1,6 @@
 # jorigamy.github.io
 
-Jekyll template that use Bootstrap 4 [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt)
+Jekyll template that use Bootstrap 4 [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt) with which you can create your website quickly and **completely free**.
 
 You can:
 
@@ -110,3 +110,4 @@ Markdown sample
 
 - deploy to heroku button
 - write wiki
+- Add maichimp api in config.yml file

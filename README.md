@@ -111,7 +111,7 @@ Markdown sample
 # Example{:.animated .infinite .bounce}
 ```
 
-## To do
+# To do
 
 - [x] deploy to Netlify button
 - [x] deploy to cloudcannon

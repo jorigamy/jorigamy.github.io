@@ -136,3 +136,6 @@ Everyone, through his github account is mentioned below:
 ## Special thanks
 
 - [@antoniotrento](https://github.com/antoniotrento) to make all the theme for Jekyll
+
+
+[![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/jorigamy/jorigamy.github.io) <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jorigamy/jorigamy.github.io) -->[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lantoniotrento) [![Follow me on Steem](https://img.shields.io/badge/Follow&#32;me-on&#32;Steem-orange.svg)](https://steemit.com/@antoniotrento)

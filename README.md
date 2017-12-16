@@ -108,6 +108,6 @@ Markdown sample
 
 ## To do
 
-- [x] deploy to heroku button
-- [x] write wiki
-- [x] Add maichimp api in config.yml file
+- [ ] deploy to heroku button
+- [ ] write wiki
+- [ ] Add maichimp api in config.yml file

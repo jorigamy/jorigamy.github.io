@@ -123,9 +123,7 @@ Markdown sample
 
 # Say thanks
 
-![Jorigamy screenshot](https://giphy.com/embed/TYD91YUApkTrG)
-
-<div style="width:100%;height:0;padding-bottom:71%;position:relative;"><iframe src="https://giphy.com/embed/TYD91YUApkTrG" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/reaction-facebook-dot-TYD91YUApkTrG">via GIPHY</a></p>
+[![like distribution](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/like-distribution.gif)](https://gph.is/2gvyXMJ)
 
 I thank all the people who support or supported the project.
 

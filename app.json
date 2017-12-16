@@ -1,0 +1,7 @@
+{
+  "name": "Jorigamy",
+  "description": "Jorigamy is a porting of Shards UI toolkit a bootstrap4 starter template intalled for Jekyll.",
+  "repository": "https://github.com/jorigamy/jorigamy.github.io",
+  "website": "https://jorigamy.github.io",
+  "keywords": ["jekyll", "static"]
+}

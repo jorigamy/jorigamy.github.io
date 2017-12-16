@@ -31,6 +31,7 @@ There are three page layouts
 * post (used for jekyll posts)
 * index (used for pages and index page)
 * signup (used for lead generation - you'll need to edit this part from the includes/themes/default-signup.html the mailchimp code)
+* gallery (enable the gallery layout to show your favourite photos)
 
 ## Blog post template
 

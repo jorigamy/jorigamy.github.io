@@ -117,3 +117,4 @@ Markdown sample
 - [ ] write wiki
 - [ ] Add maichimp api in config.yml file
 - [ ] Configure pagination (never be able to install jekyll-paginate plugin don't works)
+- [ ] Make a branch for fully compatibility with https://www.siteleaf.com/

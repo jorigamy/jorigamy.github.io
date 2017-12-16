@@ -59,7 +59,8 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 <!--more--> # except separator the post preview in the blog main page after this separator will not displayed
 ```
 
-##  SimpleParallax
+## SimpleParallax
+
 To use parallax effect more info at [SimpleParallax website](https://anakao-theme.com/simpleparallax/)
 
 ```

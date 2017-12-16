@@ -4,7 +4,7 @@ Jekyll template that use Bootstrap 4 [Shards UI Kit](https://designrevision.com/
 
 You can:
 
-- Host on github pages (fork it and then edit your url and baseurl in the _config.yaml file)
+- Host on github pages (fork it and then edit your url and baseurl in the `_config.yaml` file)
 
 <!-- Markdown snippet -->
 - [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io)

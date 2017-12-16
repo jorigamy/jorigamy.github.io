@@ -135,8 +135,3 @@ gallery-description: >- # this means to ignore newlines until "baseurl:"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-
-# for heroku deploy button
-gems: ['kramdown']
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'vendor']

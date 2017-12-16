@@ -62,7 +62,7 @@ To use parallax effect more info at [SimpleParallax website](https://anakao-them
 
 This theme is equipped with [Animate.css](https://daneden.github.io/animate.css/) to create simple and quick animations
 
-| ﻿Class Name | | | |
+| Class Name | | | |
 |--------------------|--------------------|--------------------|--------------------|
 | `bounce` |`flash` |`pulse` |`rubberBand` |
 | `shake` |`headShake` |`swing` |`tada` |
@@ -94,3 +94,8 @@ Markdown sample
 ```html
 # Example{:.animated .infinite .bounce}
 ```
+
+## To do
+
+- deploy to heroku button
+- write wiki

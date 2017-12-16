@@ -7,7 +7,7 @@ You can:
 - Host on github pages (fork it and then edit your url and baseurl in the _config.yaml file)
 
 <!-- Markdown snippet -->
-![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io)
 
 Or fork it, rename and then
 

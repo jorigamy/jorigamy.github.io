@@ -2,6 +2,9 @@
 
 Jekyll template that use Bootstrap 4 [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt)
 
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io)
+
 # Feature inside
 
 You can configure many of the feature of the theme from config.yaml file

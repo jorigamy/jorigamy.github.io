@@ -3,7 +3,7 @@
 
 Jekyll template that use Bootstrap 4 [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt) with which you can create your website quickly and **completely free**.
 
-You can:
+To use it you can:
 
 - Host on github pages (fork it and then edit your url and baseurl in the `_config.yaml` file)
 

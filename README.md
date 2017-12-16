@@ -108,6 +108,8 @@ Markdown sample
 
 ## To do
 
+- [x] deploy to Netlify button
+- [x] deploy to cloudcannon
 - [ ] deploy to heroku button
 - [ ] write wiki
 - [ ] Add maichimp api in config.yml file

@@ -1,4 +1,4 @@
-![Jorigamy screenshot](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/jorigamy-readme.jpg)]
+![Jorigamy screenshot](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/jorigamy-readme.jpg)
 
 # jorigamy.github.io Jekyll Bootstrap4 theme
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/jorigamy/jorigamy.github.io/blob/master/LICENSE)
@@ -120,3 +120,11 @@ Markdown sample
 - [ ] Add maichimp api in config.yml file
 - [ ] Configure pagination (never be able to install jekyll-paginate plugin don't works)
 - [ ] Make a branch for fully compatibility with https://www.siteleaf.com/
+
+# Say thanks
+
+I thank all the people who support or supported the project.
+
+Everyone, through his github account is mentioned below:
+
+[@antoniotrento](https://github.com/antoniotrento), **helps the project to reserve a place**

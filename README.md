@@ -111,3 +111,7 @@ Markdown sample
 - [ ] deploy to heroku button
 - [ ] write wiki
 - [ ] Add maichimp api in config.yml file
+
+[^1]: This is my first footnote
+[^n]: Visit http://milanaryal.com
+[^n]: A final footnote

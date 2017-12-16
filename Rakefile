@@ -1,5 +1,7 @@
+task :build do
+  system('bundle exec jekyll build')
+end
+
 namespace :assets do
-  task :precompile do
-    puts `bundle exec jekyll build`
-  end
+  task precompile: :build
 end

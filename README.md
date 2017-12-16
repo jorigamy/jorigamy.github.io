@@ -1,4 +1,5 @@
 # jorigamy.github.io
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/jorigamy/jorigamy.github.io/blob/master/LICENSE)
 
 Jekyll template that use Bootstrap 4 [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt) with which you can create your website quickly and **completely free**.
 
@@ -113,7 +114,3 @@ Markdown sample
 - [ ] deploy to heroku button
 - [ ] write wiki
 - [ ] Add maichimp api in config.yml file
-
-[^1]: This is my first footnote
-[^n]: Visit http://milanaryal.com
-[^n]: A final footnote

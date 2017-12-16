@@ -114,3 +114,4 @@ Markdown sample
 - [ ] deploy to heroku button
 - [ ] write wiki
 - [ ] Add maichimp api in config.yml file
+- [ ] Configure pagination (never be able to install jekyll-paginate plugin don't works)

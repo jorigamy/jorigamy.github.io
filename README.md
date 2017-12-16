@@ -8,17 +8,17 @@ To use it you can:
 - Host on github pages (fork it and then edit your url and baseurl in the `_config.yaml` file)
 
 <!-- Markdown snippet -->
-- [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io)
+- [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io) (simplest way, just click button connect github edit domain name, and done)
 
-- Or fork it, rename and then [Deploy with cloudcannon](https://cloudcannon.com/)
+- Or fork it, rename and then [Deploy with cloudcannon](https://cloudcannon.com/) (cloudcannon give you the possibility to use visual editor to edit your web pages)
 
-Are not you good at doing these things alone? Try **following the installation guide** on the [jorigamy wiki](https://github.com/jorigamy/jorigamy.github.io/wiki/Installation)
+Are not you good at doing these things alone? Try **following the installation guide** on the [jorigamy wiki](https://github.com/jorigamy/jorigamy.github.io/wiki/Installation) and feel free to open a [new issue or request](https://github.com/jorigamy/jorigamy.github.io/issues) if you think is necessary.
 
 # Feature inside
 
-You can configure many of the feature of the theme from config.yaml file
+You can configure many of the feature of the theme from config.yml file
 
-Whan you can edit:
+What you can edit:
 
 * Google AD Sense
 * Google Analytics
@@ -28,19 +28,19 @@ Whan you can edit:
 
 There are three page layouts
 
-* post (used for jekyll posts)
+* post or half-post (used for jekyll posts with 1 or 2 column)
 * index (used for pages and index page)
 * signup (used for lead generation - you'll need to edit this part from the includes/themes/default-signup.html the mailchimp code)
 * gallery (enable the gallery layout to show your favourite photos)
 
-## Blog post template
+## Page template
 
 For every post or page you'll can configure many option for every field that you'll insert in the template section at the top of the file:
 
 
 ```
 ---
-layout: index # the type of layout
+layout: index # the type of layout (can be index, page, post, half-post, signup, gallery)
 group: "navigation" # if the page/post will be display in the top menu
 title: Home # Title, post/page
 tagline: The awesome description

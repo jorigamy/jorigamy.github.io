@@ -123,6 +123,8 @@ Markdown sample
 
 # Say thanks
 
+<iframe src="https://giphy.com/embed/TYD91YUApkTrG" width="480" height="340" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-facebook-dot-TYD91YUApkTrG">via GIPHY</a></p>
+
 I thank all the people who support or supported the project.
 
 Everyone, through his github account is mentioned below:

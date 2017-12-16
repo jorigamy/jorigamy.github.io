@@ -16,9 +16,9 @@ To use it you can:
 
 Are not you good at doing these things alone? Try **following the installation guide** on the [jorigamy wiki](https://github.com/jorigamy/jorigamy.github.io/wiki/Installation) and feel free to open a [new issue or request](https://github.com/jorigamy/jorigamy.github.io/issues) if you think is necessary.
 
-# Feature inside
+# Features inside
 
-You can configure many of the feature of the theme from config.yml file
+You can configure many of the feature of the theme from [`_config.yml`](https://github.com/jorigamy/jorigamy.github.io/blob/master/_config.yml) file
 
 What you can edit:
 

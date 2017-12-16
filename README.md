@@ -120,6 +120,8 @@ Markdown sample
 - [ ] Add maichimp api in config.yml file
 - [ ] Configure pagination (never be able to install jekyll-paginate plugin don't works)
 - [ ] Make a branch for fully compatibility with https://www.siteleaf.com/
+- [ ] Implement https://popmotion.io/
+- [ ] Check out how to create a gem to implement quickly the theme
 
 # Say thanks
 
@@ -129,4 +131,8 @@ I thank all the people who support or supported the project.
 
 Everyone, through his github account is mentioned below:
 
-[@antoniotrento](https://github.com/antoniotrento), **helps the project to reserve a place**
+[@antoniotrento](https://github.com/antoniotrento), [@docotordeep](https://github.com/doctordeep) **helps the project to reserve a place**
+
+## Special thanks
+
+- [@antoniotrento](https://github.com/antoniotrento) to make all the theme for Jekyll

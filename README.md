@@ -126,7 +126,7 @@ Markdown sample
 - [ ] Make a branch for fully compatibility with https://www.siteleaf.com/
 - [ ] Implement https://popmotion.io/
 - [ ] Check out how to create a gem to implement quickly the theme
-- [ ] Add https://popmotion.io/ library
+
 
 # Say thanks
 

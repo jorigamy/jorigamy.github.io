@@ -94,13 +94,29 @@ lantoniotrento@gmail.com
       <script src="{{ site.url }}{{ site.baseurl }}/assets/js/shards.js?v=1.0.2"></script>
       <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js?v=1.0.2"></script>
       <script src="{{ site.url }}{{ site.baseurl }}/assets/js/simpleParallax.min.js"></script>
+      <script src="{{ site.url }}{{ site.baseurl }}/assets/js/popmotion.global.min.js"></script>
       <script>$(document).ready(function() {
           $('.simple-parallax').simpleParallax();
           $('.simple-parallax-down').simpleParallax({scale: '1.20', orientation: 'down'});
       });</script>
     <!--Custom script loaded by children page-->
     {% if page.js %}<script async src="{{ site.url }}{{ site.baseurl }}/assets/js/{{ page.js }}"></script>{% endif %}
+    <script>
+      var _window$popmotion = window.popmotion,
+    keyframes = _window$popmotion.keyframes,
+    easing = _window$popmotion.easing,
+    styler = _window$popmotion.styler;
 
+
+var bodyStyler = styler(document.getElementByClass("colors"));
+
+keyframes({
+  values: ['#FF1C68', '#14D790', '#198FE3', '#FF1C68'],
+  duration: 10000,
+  ease: easing.linear,
+  loop: Infinity
+}).start(bodyStyler.set('background'));
+    </script>
 
 
   </body>

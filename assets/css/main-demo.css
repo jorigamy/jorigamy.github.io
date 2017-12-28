@@ -28,6 +28,6 @@ p.card-text {
 
 }
 
-.jumbotron {color: black!important}
+.wrapper .jumbotron {background-color: none!important}
 .padding-10 {padding-top:10em; padding-bottom:10em;}
 

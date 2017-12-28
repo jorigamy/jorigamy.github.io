@@ -124,9 +124,9 @@ Markdown sample
 - [ ] Add maichimp api in config.yml file
 - [ ] Configure pagination (never be able to install jekyll-paginate plugin don't works)
 - [ ] Make a branch for fully compatibility with https://www.siteleaf.com/
-- [ ] Implement https://popmotion.io/
+- [x] Implement https://popmotion.io/
 - [ ] Check out how to create a gem to implement quickly the theme
-- [x] Implement Google custom search https://cse.google.com/cse/
+- [ ] Implement Google custom search https://cse.google.com/cse/
 
 
 # Say thanks

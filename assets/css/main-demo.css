@@ -17,12 +17,12 @@
     color:white!important;
 }
 
-.wrapper.card-title {
+h1.card-title, h2.card-title, h3.card-title, h4.card-title {
 
     color:black!important;
 
 }
-.wrapper.card-text {
+p.card-text {
 
     color:black!important;
 

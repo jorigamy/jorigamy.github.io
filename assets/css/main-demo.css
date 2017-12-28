@@ -12,7 +12,7 @@
 
 }
 
-.wrapper p, h1, h2, h3 {
+.wrapper p, .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
 
     color:white!important;
 }

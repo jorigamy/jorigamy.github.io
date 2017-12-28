@@ -17,7 +17,12 @@
     color:white!important;
 }
 
-.card-title, .card-text {
+.card-title {
+
+    color:black!important;
+
+}
+.card-text {
 
     color:black!important;
 

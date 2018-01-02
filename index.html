@@ -251,8 +251,8 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
                                                 </div>
                                                 <div class="modal-body"><p style="color:black!important;">Scan this QR or copy the code:</p><p><img class="image-fluid" src='https://jorigamy.github.io/assets/images/qrcode-bitcoin.png' /></p><input style="color:black!important;" type="text" id="address" value="1Du9FqyqdWANstXEict6w6oWVJvaBKnDeg"></div>
                                                 <div class="modal-footer">
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-                                                    <button type="button" class="btn btn-success" onclick="copyaddress() ">Copy it</button>
+                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle-o mr-1"></i> Back</button>
+                                                    <button type="button" class="btn btn-success" onclick="copyaddress() "><i class="fa fa-clone mr-1"></i> Copy it</button>
                                                 </div>
                                                 <script> 
                                                     function copyaddress() {
@@ -260,8 +260,7 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
                                                     
                                                     copyText.select();
                                                     document.execCommand("Copy"); 
-                                                    $(copyText).select();
-                                                                                                       
+                                                    $(copyText).select();                                                                                                       
                                                     }                                                    
                                                 </script>
                                             </div>

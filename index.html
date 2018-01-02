@@ -326,3 +326,27 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 </div>
 
 
+<div class="modal fade text-center" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 style="color:black!important;" class="modal-title" id="exampleModalLabel">Donate ⛑❤️</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body"><p style="color:black!important;">Scan this QR or copy the code:</p><p><img class="image-fluid" src='https://jorigamy.github.io/assets/images/qrcode-bitcoin.png' /></p><input style="color:black!important;" type="text" id="address" value="1Du9FqyqdWANstXEict6w6oWVJvaBKnDeg"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal"><i class="fa fa-times-circle-o mr-1"></i> Back</button>
+                    <button type="button" class="btn btn-success" onclick="copyaddress() "><i class="fa fa-clone mr-1"></i> Copy it</button>
+                </div>
+                <script> 
+                    function copyaddress() {
+                    var copyText = document.getElementById('address');    
+                    
+                    copyText.select();
+                    document.execCommand("Copy"); 
+                    $(copyText).select();                                                                                                       
+                    }                                                    
+                </script>
+            </div>
+        </div>
+</div>

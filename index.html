@@ -252,14 +252,13 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
                                                 <div class="modal-body"><p style="color:black!important;">Scan this QR or copy the code:</p><img class="image-fluid" src='https://jorigamy.github.io/assets/images/qrcode-bitcoin.png' /><p id="address" style="color:black!important;">1Du9FqyqdWANstXEict6w6oWVJvaBKnDeg</p></div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-                                                    <button type="button" class="btn btn-success" onclick="copyaddress()" data-dismiss="modal">Copy it</button>
+                                                    <button type="button" class="btn btn-success" onclick="copyaddress()">Copy it</button>
                                                 </div>
                                                 <script> 
                                                     function copyaddress() {
                                                     var copyText = document.getElementById("address");
                                                     copyText.select();
-                                                    document.execCommand("Copy");
-                                                    
+                                                    document.execCommand("Copy");                                                    
                                                     }                                                    
                                                 </script>
                                             </div>

@@ -1,5 +1,5 @@
 # Welcome to Jekyll!
-#
+# 
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
@@ -53,7 +53,7 @@ google :
     tracking_id : 'UA-109407288-1' # Id google analitics
     optimize_id : 'GTM-MPKVJB9' # I'id di google optimize per A/B Testing
     tagmanager_id: 'GTM-5VNXBR4' # id di google tag manager
-    ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
+    # ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
 disqus :
     short_name : blog-antonio-trento

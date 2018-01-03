@@ -65,6 +65,14 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 <!--more--> # except separator the post preview in the blog main page after this separator will not displayed
 ```
 
+## Bootstrap 4 
+
+[![Bootstrap 4](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/bootstrap-4.png)](https://v4-alpha.getbootstrap.com/)
+
+The theme is supported by the [bootstrap 4 framework](https://v4-alpha.getbootstrap.com/), a new generation tool to create the frontend for your websites quickly and easily.
+
+Find out everything you need to know about Bootstrap by reading its documentation
+
 ## SimpleParallax
 
 [![Simple parallax](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/simple-parallax-readme.png)](https://anakao-theme.com/simpleparallax/)

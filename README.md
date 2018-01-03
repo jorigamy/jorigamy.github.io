@@ -67,6 +67,8 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 
 ## SimpleParallax
 
+[![Simple parallax](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/simple-parallax-readme.png)](https://anakao-theme.com/simpleparallax/)
+
 To use parallax effect more info at [SimpleParallax website](https://anakao-theme.com/simpleparallax/)
 
 ```
@@ -79,6 +81,8 @@ To use parallax effect more info at [SimpleParallax website](https://anakao-them
 ```
 
 ## Animate.css
+
+[![Animate CSS](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/animatecss.png)](https://daneden.github.io/animate.css/)
 
 This theme is equipped with [Animate.css](https://daneden.github.io/animate.css/) to create simple and quick animations
 
@@ -117,7 +121,7 @@ Markdown sample
 
 ## Popmotion
 
-![Popmotion](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/popmotion-pink.jpg)
+[![Popmotion](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/popmotion-pink.jpg)](https://popmotion.io/)
 
 I implemented a javascript library that allows you to create animations quickly and easily.
 In order to use it you should know a bit of Javascript and [read the documentation](https://popmotion.io/)

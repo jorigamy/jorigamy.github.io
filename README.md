@@ -11,7 +11,7 @@ It's a personal project that **I also use to have free hosting on a commercial l
 
 To use it you can:
 
-- Host on github pages (fork it and then edit your url and baseurl in the `_config.yaml` file)
+- Host on github pages (fork it and then edit your url and baseurl in the `_config.yml` file)
 
 <!-- Markdown snippet -->
 - [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io) (simplest way, just click button connect github edit domain name, and done)

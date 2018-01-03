@@ -120,6 +120,7 @@ Full example:
 
 ```html
 <h1 class="animated infinite bounce">Example</h1>
+<h1 class="animated bounce">Example</h1>
 ```
 Markdown sample
 
@@ -142,7 +143,7 @@ In order to use it you should know a bit of Javascript and [read the documentati
 - [ ] Expand wiki
 - [ ] Add maichimp api in config.yml file
 - [ ] Configure pagination (never be able to install jekyll-paginate plugin don't works)
-- [ ] <del>Make a branch for fully compatibility with https://www.siteleaf.com/</del>
+- [ ] <del>Make a branch for fully compatibility with https://www.siteleaf.com/</del> (cancelled: siteleaf don't provide a free forever plan)
 - [x] Implement https://popmotion.io/
 - [ ] Check out how to create a gem to implement quickly the theme
 - [ ] Implement Google custom search https://cse.google.com/cse/

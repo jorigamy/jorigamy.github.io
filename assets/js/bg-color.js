@@ -13,7 +13,9 @@ keyframes({
 }).start(bodyStyler.set('background'));
 
 
-/*var bodyStyler2 = styler(document.querySelector('.colors2'));
+/*
+for other sections in the page (if you enable it and not specify am id to work with will return a lot of errors in the browser js console)
+var bodyStyler2 = styler(document.querySelector('.colors2'));
 
 keyframes({
   values: ['#FF1C68', '#14D790', '#198FE3', '#FF1C68'],

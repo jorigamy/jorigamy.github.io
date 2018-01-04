@@ -42,3 +42,8 @@ p.card-text {
     -webkit-animation: bounce 1s;
     animation: bounce 1s;
 }
+
+jackInTheBox-element:hover { /* Enable a animate.css trigger when hover  */
+    -webkit-animation: jackInTheBox 1s;
+    animation: jackInTheBox 1s;
+}

@@ -46,7 +46,7 @@ p.card-text {
     animation-play-state: running;
 }
 
-.element:hover { /* Enable a animate.css trigger when hover  */
+.bounce-element:hover { /* Enable a animate.css trigger when hover  */
     -webkit-animation: bounce 1s;
     animation: bounce 1s;
 }

@@ -38,14 +38,6 @@ p.card-text {
     text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.animatedhover {
-    ...
-    animation-play-state: paused;
-}
-  .animatedhover:hover {
-    animation-play-state: running;
-}
-
 .bounce-element:hover { /* Enable a animate.css trigger when hover  */
     -webkit-animation: bounce 1s;
     animation: bounce 1s;

@@ -28,11 +28,11 @@ Jorigamy is a professional and fast alternative to have a landing page generator
 
 ## Advantages
 
-- The main advantage for this type of tool is that it is completely free, at most you might think about buying the domain name for marketing purposes.
+- The main advantage for this type of tool **is that it is completely free**, at most you might think about buying the domain name for marketing purposes.
 
-- In addition, using bootstrap, most front end developers will know the tool and will be at ease, you will also have a bit of weight with HTML5 and CSS3 to create your own web pages.
+- In addition, using bootstrap, most front end developers will know the tool and will be at ease, **you will also have a bit of weight with HTML5 and CSS3** to create your own web pages.
 
-- Finally, not least, the speed and responsiveness of the system that stands below, Github Pages, thanks to it your website Jekyll with Jorigamy theme will be a splinter:
+- Finally, not least, **the speed and responsiveness of the system** that stands below, Github Pages, thanks to it your website Jekyll with Jorigamy theme will be a splinter:
 
 ![Jorigamy Pingdom tools test](https://jorigamy.github.io/assets/images/jorigamy-pingdom-tool-test.png)
 

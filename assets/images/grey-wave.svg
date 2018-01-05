@@ -1,13 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="2880px" height="239px" viewBox="0 0 2880 239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
-    <title>grey-wave</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="grey-wave" fill="#F4F4F4">
-            <path d="M23.7211299,-96.4214327 C23.7211299,-96.4214327 98.4266132,-91.6613619 207.752095,-20.4916438 C317.077576,50.6780743 528.394194,137.296099 716.736106,94.4758652 C925.189065,47.0833103 1137.82519,169.421121 1242.70566,218.271841 C1347.58613,267.122561 1426.37657,275.946317 1426.37657,275.946317 L1417.3425,340.227962 L-9.4640481,139.703378 L23.7211299,-96.4214327 Z" id="Path-3-Copy" transform="translate(708.456263, 121.903265) rotate(-8.000000) translate(-708.456263, -121.903265) "></path>
-            <path d="M1486.57513,-96.4377591 C1486.57513,-96.4377591 1560.58304,-91.714519 1669.9847,-20.5448009 C1779.38637,50.6249172 1990.85025,137.242942 2179.32341,94.4227081 C2387.92163,47.0301532 2600.70593,169.367964 2705.65949,218.218684 C2810.61305,267.069404 2889.4584,275.89316 2889.4584,275.89316 L2880.41803,340.174805 L1453.39932,139.620403 L1486.57513,-96.4377591 Z" id="Path-3-Copy" transform="translate(2171.428857, 121.868523) scale(-1, 1) rotate(-8.000000) translate(-2171.428857, -121.868523) "></path>
-        </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2880px"
+   height="239px"
+   viewBox="0 0 2880 239"
+   version="1.1"
+   id="svg13"
+   sodipodi:docname="grey-wave.svg"
+   inkscape:version="0.92.2 (30a58d1, 2017-08-07)">
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1319"
+     inkscape:window-height="829"
+     id="namedview15"
+     showgrid="false"
+     inkscape:zoom="0.35"
+     inkscape:cx="1440"
+     inkscape:cy="119.5"
+     inkscape:window-x="75"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg13" />
+  <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">grey-wave</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="grey-wave"
+       fill="#F4F4F4">
+      <path
+         d="M23.7211299,-96.4214327 C23.7211299,-96.4214327 98.4266132,-91.6613619 207.752095,-20.4916438 C317.077576,50.6780743 528.394194,137.296099 716.736106,94.4758652 C925.189065,47.0833103 1137.82519,169.421121 1242.70566,218.271841 C1347.58613,267.122561 1426.37657,275.946317 1426.37657,275.946317 L1417.3425,340.227962 L-9.4640481,139.703378 L23.7211299,-96.4214327 Z"
+         id="Path-3-Copy"
+         transform="translate(708.456263, 121.903265) rotate(-8.000000) translate(-708.456263, -121.903265) " />
+      <path
+         d="M1486.57513,-96.4377591 C1486.57513,-96.4377591 1560.58304,-91.714519 1669.9847,-20.5448009 C1779.38637,50.6249172 1990.85025,137.242942 2179.32341,94.4227081 C2387.92163,47.0301532 2600.70593,169.367964 2705.65949,218.218684 C2810.61305,267.069404 2889.4584,275.89316 2889.4584,275.89316 L2880.41803,340.174805 L1453.39932,139.620403 L1486.57513,-96.4377591 Z"
+         id="path9"
+         transform="translate(2171.428857, 121.868523) scale(-1, 1) rotate(-8.000000) translate(-2171.428857, -121.868523) " />
     </g>
+  </g>
+  <path
+     style="fill:#ececec;stroke:none;stroke-width:2.85714293"
+     d="M 0,120.79882 V 0.38335206 L 27.857143,2.0181491 C 63.84624,4.13017 112.57179,16.631235 159.22752,35.722637 179.29524,43.934294 211.14286,56.981589 230,64.716623 c 110.43797,45.300687 253.17146,67.760467 357.96974,56.328207 41.6446,-4.54294 74.121,-11.98663 127.79946,-29.292024 71.92374,-23.187492 92.40683,-26.281895 172.80223,-26.105432 56.57951,0.1242 73.21117,1.183546 105.71428,6.733503 52.25429,8.922494 115.94719,24.988429 182.85719,46.124023 90.6078,28.6213 110.0842,34.15507 145.1943,41.25369 113.5287,22.95344 205.1187,15.30323 340.1984,-28.41566 152.7074,-49.42409 221.3916,-63.93925 314.6073,-66.486524 79.3114,-2.167315 117.9951,3.492703 191.6244,28.03758 75.5299,25.178464 128.6672,32.942694 206.947,30.238364 102.3208,-3.53487 210.3796,-28.324984 301.9873,-69.279881 72.5505,-32.435018 128.1711,-48.9483836 174.4413,-51.7903624 L 2880,0.35108131 V 120.78268 241.21429 H 1440 0 Z"
+     id="path19"
+     inkscape:connector-curvature="0" />
+  <path
+     style="opacity:1;vector-effect:none;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:8.16326523;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 0,120.7848 V 0.35531766 L 27.857143,2.2167846 C 74.547909,5.3367494 119.93256,18.609498 203.38733,53.550611 316.8146,101.0407 414.24343,121.93219 524.28571,122.36029 600.87103,122.65824 637.80531,116.6715 717.14286,91.099797 790.29477,67.521814 849.141,60.6548 930.63186,66.186871 c 78.67274,5.34076 130.49914,16.75024 269.22604,59.269579 95.3759,29.23241 127.6529,36.9141 181.5707,43.21256 67.7448,7.91369 141.0532,1.55261 217.1428,-18.84179 17.2857,-4.63312 58.4286,-16.90524 91.4286,-27.27139 149.563,-46.981567 232.7325,-61.357953 332.8571,-57.53651 51.8492,1.97892 79.2883,7.203386 145.7143,27.744329 89.6901,27.734901 143.6827,34.658621 226.5555,29.052291 104.6434,-7.07909 183.6444,-26.512534 290.9835,-71.578989 78.5219,-32.967572 137.0399,-49.0226653 178.6787,-49.0226653 H 2880 v 120.0000043 120 H 1440 0 Z"
+     id="path21"
+     inkscape:connector-curvature="0" />
 </svg>

@@ -34,7 +34,7 @@ Jorigamy is a professional and fast alternative to have a landing page generator
 
 - Finally, not least, the speed and responsiveness of the system that stands below, Github Pages, thanks to it your website Jekyll with Jorigamy theme will be a splinter:
 
-![Jorigamy Pingdom tools test](https://jotigamy.github.io/assets/images/jorigamy-pingdom-tool-test.png)
+![Jorigamy Pingdom tools test](https://jorigamy.github.io/assets/images/jorigamy-pingdom-tool-test.png)
 
 # Features inside
 

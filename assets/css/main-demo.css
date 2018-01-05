@@ -55,3 +55,163 @@ jackInTheBox-element:hover { /* Enable a animate.css trigger when hover  */
     animation: jackInTheBox 1s;
 }
 
+
+/* Wave background from https://www.prodpad.com/blog/internal-transparency-in-the-workplace/ */
+
+.wave-container {
+    float: left;
+    width: 100%;
+    height: 96px;
+    position: relative
+}
+
+.hero .wave-container {
+    height: 120px;
+    margin-top: -120px;
+    z-index: 1
+}
+
+@media only screen and (min-width: 600px) {
+    .wave-container {
+        height: 160px
+    }
+    .hero .wave-container {
+        height: 160px;
+        margin-top: -160px;
+        z-index: 1
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .wave-container {
+        height: 240px
+    }
+    .hero .wave-container {
+        margin-top: -240px;
+        height: 240px;
+        z-index: 1;
+        position: absolute;
+        bottom: 0
+    }
+}
+
+.wave-container .wave:first-child {
+    background-position: -32% 0px
+}
+
+.wave-container .wave:last-child {
+    background-position: 0 0px;
+    z-index: 3
+}
+
+.wave-container.animated .wave:first-child {
+    animation: animatedBackgroundOne 180s linear infinite
+}
+
+.wave-container.animated .wave:last-child {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    animation: animatedBackgroundOne 300s linear infinite
+}
+
+@-webkit-keyframes animatedBackgroundOne {
+    from {
+        background-position: 0 0
+    }
+    to {
+        background-position: 1158px 0px
+    }
+}
+
+@keyframes animatedBackgroundOne {
+    from {
+        background-position: 0 0px
+    }
+    to {
+        background-position: 1158px 0px
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    @-webkit-keyframes animatedBackgroundOne {
+        from {
+            background-position: 0 0
+        }
+        to {
+            background-position: 1928px 0px
+        }
+    }
+    @keyframes animatedBackgroundOne {
+        from {
+            background-position: 0 0px
+        }
+        to {
+            background-position: 1928px 0px
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    @-webkit-keyframes animatedBackgroundOne {
+        from {
+            background-position: 0 0
+        }
+        to {
+            background-position: 3855px 0px
+        }
+    }
+    @keyframes animatedBackgroundOne {
+        from {
+            background-position: 0 0px
+        }
+        to {
+            background-position: 3855px 0px
+        }
+    }
+}
+
+.wave {
+    float: left;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-repeat: repeat-x;
+    height: 100%;
+    background-size: auto 100%
+}
+
+.wave.wave--blue {
+    background-image: url(/assets/images/blue-wave.svg)
+}
+
+.wave.wave--green {
+    background-image: url(/assets/images/green-wave.svg)
+}
+
+.wave.wave--pink {
+    background-image: url(/assets/images/pink-wave.svg)
+}
+
+.wave.wave--orange {
+    background-image: url(/assets/images/orange-wave.svg)
+}
+
+.wave.wave--purple {
+    background-image: url(/assets/images/purple-wave.svg)
+}
+
+.wave.wave--yellow {
+    background-image: url(/assets/images/yellow-wave.svg)
+}
+
+.wave.wave--white {
+    background-image: url(/assets/images/white-wave.svg)
+}
+
+.wave.wave--grey {
+    background-image: url(/assets/images/grey-wave.svg)
+}

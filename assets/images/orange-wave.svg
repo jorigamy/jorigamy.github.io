@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2880px" height="239px" viewBox="0 0 2880 239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>orange-wave</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F0944E" offset="0%"></stop>
+            <stop stop-color="#F0505C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="orange-wave" fill="url(#linearGradient-1)">
+            <path d="M23.7211299,-96.4214327 C23.7211299,-96.4214327 98.4266132,-91.6613619 207.752095,-20.4916438 C317.077576,50.6780743 528.394194,137.296099 716.736106,94.4758652 C925.189065,47.0833103 1137.82519,169.421121 1242.70566,218.271841 C1347.58613,267.122561 1426.37657,275.946317 1426.37657,275.946317 L1417.3425,340.227962 L-9.4640481,139.703378 L23.7211299,-96.4214327 Z" id="Path-3-Copy" transform="translate(708.456263, 121.903265) rotate(-8.000000) translate(-708.456263, -121.903265) "></path>
+            <path d="M1486.57513,-96.4377591 C1486.57513,-96.4377591 1560.58304,-91.714519 1669.9847,-20.5448009 C1779.38637,50.6249172 1990.85025,137.242942 2179.32341,94.4227081 C2387.92163,47.0301532 2600.70593,169.367964 2705.65949,218.218684 C2810.61305,267.069404 2889.4584,275.89316 2889.4584,275.89316 L2880.41803,340.174805 L1453.39932,139.620403 L1486.57513,-96.4377591 Z" id="Path-3-Copy" transform="translate(2171.428857, 121.868523) scale(-1, 1) rotate(-8.000000) translate(-2171.428857, -121.868523) "></path>
+        </g>
+    </g>
+</svg>

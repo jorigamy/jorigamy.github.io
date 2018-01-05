@@ -20,6 +20,21 @@ To use it you can:
 
 Are not you good at doing these things alone? Try **following the installation guide** on the [jorigamy wiki](https://github.com/jorigamy/jorigamy.github.io/wiki/Installation) and feel free to open a [new issue or request](https://github.com/jorigamy/jorigamy.github.io/issues) if you think is necessary.
 
+# The advantages of Jorigamy
+
+Jorigamy is not a structured and easily expandable CMS like wordpress, keep it in mind.
+
+Jorigamy is a professional and fast alternative to have a landing page generator for your marketing or a website with a personal blog.
+
+## Advantages
+
+The main advantage for this type of tool is that it is completely free, at most you might think about buying the domain name for marketing purposes.
+
+In addition, using bootstrap, most front end developers will know the tool and will be at ease, you will also have a bit of weight with HTML5 and CSS3 to create your own web pages.
+
+Finally, not least, the speed and responsiveness of the system that stands below, Github Pages, thanks to it your website Jekyll with Jorigamy theme will be a splinter:
+![Jorigamy Pingdom tools test](https://jotigamy.github.io/assets/images/jorigamy-pingdom-tool-test.png)
+
 # Features inside
 
 You can configure many of the feature of the theme from [`_config.yml`](https://github.com/jorigamy/jorigamy.github.io/blob/master/_config.yml) file

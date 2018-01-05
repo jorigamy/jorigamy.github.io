@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: <b style='color :#007bff'>Jori</b><span>gamy</span>
+title: <b style='color :#007bff; font-weight:900;'>Jori</b><span>gamy</span>
 email: lantoniotrento@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jorigamy is a porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> a bootstrap4 starter template intalled for Jekyll.

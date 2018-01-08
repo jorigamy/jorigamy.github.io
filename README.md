@@ -163,6 +163,7 @@ In order to use it you should know a bit of Javascript and [read the documentati
 - [x] Implement https://popmotion.io/
 - [ ] Check out how to create a gem to implement quickly the theme
 - [ ] Implement Google custom search https://cse.google.com/cse/
+- [x] Implement prism.js from http://prismjs.com/
 
 
 # Say thanks

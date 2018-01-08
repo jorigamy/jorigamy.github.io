@@ -81,6 +81,17 @@ facebook:
  admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
  publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
 
+
+cloudinary:
+  cloud_name: officialtrento #from the cloudinary-jekyll plugin guide https://nhoizey.github.io/jekyll-cloudinary/#installation
+  presets:
+  default:
+    min_width: 320
+    max_width: 1600
+    fallback_max_width: 800
+    steps: 5
+    sizes: "(min-width: 50rem) 50rem, 90vw"
+
 # Build settings
 markdown: kramdown
 

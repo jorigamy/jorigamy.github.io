@@ -83,7 +83,7 @@ facebook:
 
 
 cloudinary:
-  cloud_name: officialtrento #from the cloudinary-jekyll plugin guide https://nhoizey.github.io/jekyll-cloudinary/#installation
+  cloud_name: officialtrento #  NOT WORK FOR NOW from the cloudinary-jekyll plugin guide https://nhoizey.github.io/jekyll-cloudinary/#installation
   presets:
   default:
     min_width: 320

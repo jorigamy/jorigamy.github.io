@@ -179,6 +179,9 @@ Everyone, through his github account is mentioned below:
 
 [@antoniotrento](https://github.com/antoniotrento), [@docotordeep](https://github.com/doctordeep) **helps the project to reserve a place**
 
+- https://cloudinary.com for hosting eavy images
+- https://ezgif.com/optimize for gif optimization
+
 ## Special thanks
 
 - [@antoniotrento](https://github.com/antoniotrento) to make all the theme for Jekyll

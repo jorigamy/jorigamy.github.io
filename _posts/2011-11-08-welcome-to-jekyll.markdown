@@ -20,13 +20,81 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight markdown %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight javascript %}
+
+    /*jshint browser: true, strict: true, undef: true */
+    /*global define: false */
+
+    ( function( window ) {
+
+    'use strict';
+
+    // class helper functions from bonzo https://github.com/ded/bonzo
+
+    function classReg( className ) {
+      return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+    }
+
+    // classList support for class management
+    // altho to be fair, the api sucks because it won't accept multiple classes at once
+    var hasClass, addClass, removeClass;
+
+    if ( 'classList' in document.documentElement ) {
+      hasClass = function( elem, c ) {
+        return elem.classList.contains( c );
+      };
+      addClass = function( elem, c ) {
+        elem.classList.add( c );
+      };
+      removeClass = function( elem, c ) {
+        elem.classList.remove( c );
+      };
+    }
+    else {
+      hasClass = function( elem, c ) {
+        return classReg( c ).test( elem.className );
+      };
+      addClass = function( elem, c ) {
+        if ( !hasClass( elem, c ) ) {
+          elem.className = elem.className + ' ' + c;
+        }
+      };
+      removeClass = function( elem, c ) {
+        elem.className = elem.className.replace( classReg( c ), ' ' );
+      };
+    }
+
+    function toggleClass( elem, c ) {
+      var fn = hasClass( elem, c ) ? removeClass : addClass;
+      fn( elem, c );
+    }
+
+    var classie = {
+      // full names
+      hasClass: hasClass,
+      addClass: addClass,
+      removeClass: removeClass,
+      toggleClass: toggleClass,
+      // short names
+      has: hasClass,
+      add: addClass,
+      remove: removeClass,
+      toggle: toggleClass
+    };
+
+    // transport
+    if ( typeof define === 'function' && define.amd ) {
+      // AMD
+      define( classie );
+    } else {
+      // browser global
+      window.classie = classie;
+    }
+
+    })( window );
+
 {% endhighlight %}
+
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 

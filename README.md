@@ -1,6 +1,7 @@
 ![Jorigamy screenshot](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/jorigamy-readme.jpg)
 
 # Jorigamy Jekyll Bootstrap4 theme for Github Pages
+
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/jorigamy/jorigamy.github.io/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/jorigamy/jorigamy.github.io) <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jorigamy/jorigamy.github.io) -->[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lantoniotrento) [![Follow me on Steem](https://img.shields.io/badge/Follow&#32;me-on&#32;Steem-orange.svg)](https://steemit.com/@antoniotrento)
 
 **[Jorigamy](https://jorigamy.github.io) Jekyll template that use Bootstrap 4** [Shards UI Kit](https://designrevision.com/downloads/shards/?ref=producthunt) with which you can create your website quickly and **completely free**.
@@ -42,25 +43,25 @@ You can configure many of the feature of the theme from [`_config.yml`](https://
 
 What you can edit:
 
-* Google AD Sense
-* Google Analytics
-* Google tag manager
-* Google Optimize
-* Disqus comment system
+- Google AD Sense
+- Google Analytics
+- Google tag manager
+- Google Optimize
+- Disqus comment system
 
 There are three page layouts
 
-* post or half-post (used for jekyll posts with 1 or 2 column)
-* index (used for pages and index page)
-* signup (used for lead generation - you'll need to edit this part from the includes/themes/default-signup.html the mailchimp code)
-* gallery (enable the gallery layout to show your favourite photos)
+- post or half-post (used for jekyll posts with 1 or 2 column)
+- index (used for pages and index page)
+- signup (used for lead generation - you'll need to edit this part from the includes/themes/default-signup.html the mailchimp code)
+- gallery (enable the gallery layout to show your favourite photos)
 
 ## Page template
 
 For every post or page you'll can configure many option for every field that you'll insert in the template section at the top of the file:
 
+``` markdown
 
-```
 ---
 layout: index # the type of layout (can be index, page, post, half-post, signup, gallery)
 group: "navigation" # if the page/post will be display in the top menu
@@ -74,14 +75,16 @@ img:
 image: assets/images/shard-1-5x-3.png
 custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html code on the head of the site -->
 ---
-```
-## Post Introduction
 
 ```
+
+## Post Introduction
+
+``` markdown
 <!--more--> # except separator the post preview in the blog main page after this separator will not displayed
 ```
 
-## Bootstrap 4 
+## Bootstrap 4
 
 [![Bootstrap 4](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/bootstrap-4.png)](https://v4-alpha.getbootstrap.com/)
 
@@ -95,7 +98,7 @@ Find out everything you need to know about Bootstrap by reading its documentatio
 
 To use parallax effect more info at [SimpleParallax website](https://anakao-theme.com/simpleparallax/)
 
-```
+``` html
 <img class="simple-parallax-down" src="path">
 
 # in markdown
@@ -138,6 +141,7 @@ Full example:
 <h1 class="animated infinite bounce">Example</h1>
 <h1 class="animated bounce">Example</h1>
 ```
+
 Markdown sample
 
 ```html
@@ -165,7 +169,6 @@ In order to use it you should know a bit of Javascript and [read the documentati
 - [ ] Implement Google custom search https://cse.google.com/cse/
 - [x] Implement prism.js from http://prismjs.com/
 
-
 # Say thanks
 
 [![like distribution](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/like-distribution.gif)](https://gph.is/2gvyXMJ)
@@ -179,6 +182,5 @@ Everyone, through his github account is mentioned below:
 ## Special thanks
 
 - [@antoniotrento](https://github.com/antoniotrento) to make all the theme for Jekyll
-
 
 [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/jorigamy/jorigamy.github.io) <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jorigamy/jorigamy.github.io) -->[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lantoniotrento) [![Follow me on Steem](https://img.shields.io/badge/Follow&#32;me-on&#32;Steem-orange.svg)](https://steemit.com/@antoniotrento)

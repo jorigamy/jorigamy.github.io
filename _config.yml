@@ -82,6 +82,10 @@ facebook:
  publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
 
 
+algolia:
+  application_id: 'GU8HT2BGPU'
+  index_name:     'your_index_name' # I'm looking to understand how it can be set the index_name of agolia https://www.algolia.com/apps/GU8HT2BGPU/dashboard and https://community.algolia.com/jekyll-algolia/getting-started.html
+
 cloudinary:
   cloud_name: officialtrento #  NOT WORK FOR NOW from the cloudinary-jekyll plugin guide https://nhoizey.github.io/jekyll-cloudinary/#installation
   presets:

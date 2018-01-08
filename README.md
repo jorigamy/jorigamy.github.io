@@ -155,6 +155,12 @@ Markdown sample
 I implemented a javascript library that allows you to create animations quickly and easily.
 In order to use it you should know a bit of Javascript and [read the documentation](https://popmotion.io/)
 
+## Prism.js
+
+A javascript library to quickly create portions of code and share them on your web pages with an excellent highlighter code.
+
+Visit documentation to understad how to use it: http://prismjs.com/
+
 # To do
 
 - [x] deploy to Netlify button

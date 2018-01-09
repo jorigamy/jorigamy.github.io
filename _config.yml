@@ -57,7 +57,7 @@ google :
     ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
 disqus :
-    short_name : blog-antonio-trento
+    short_name : jorigamy
     # how to use
     #      {% if site.disqus.short_name %}
     #        {% include JB/disqus.html %}

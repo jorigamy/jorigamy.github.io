@@ -175,6 +175,8 @@ Visit documentation to understad how to use it: http://prismjs.com/
 - [ ] Implement Google custom search https://cse.google.com/cse/
 - [x] Implement prism.js from http://prismjs.com/
 
+![jorigamy presentation](https://github.com/jorigamy/jorigamy.github.io/blob/master/assets/images/jorigamy-presentation.gif?raw=true)
+
 # Say thanks
 
 [![like distribution](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/like-distribution.gif)](https://gph.is/2gvyXMJ)

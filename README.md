@@ -187,6 +187,7 @@ Everyone, through his github account is mentioned below:
 
 - https://cloudinary.com for hosting eavy images
 - https://ezgif.com/optimize for gif optimization
+- http://www.gradient-scanner.com/ for image gradient analisys
 
 ## Special thanks
 

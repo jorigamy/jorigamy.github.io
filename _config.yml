@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: <b style='color :#007bff; font-weight:900!important;'>Jori</b><span>gamy</span>
-email: lantoniotrento@gmail.com
+email: jorigamy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jorigamy is a porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> a bootstrap4 starter template intalled for Jekyll static website generator.
 baseurl: "" # the subpath of your site, e.g. /blog

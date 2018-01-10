@@ -167,7 +167,7 @@ Visit documentation to understad how to use it: http://prismjs.com/
 - [x] deploy to cloudcannon
 - [ ] deploy to heroku button
 - [ ] Expand wiki
-- [ ] Add maichimp api in config.yml file
+- [x] Add maichimp api in config.yml file
 - [ ] Configure pagination (never be able to install jekyll-paginate plugin don't works)
 - [ ] <del>Make a branch for fully compatibility with https://www.siteleaf.com/</del> (cancelled: siteleaf don't provide a free forever plan)
 - [x] Implement https://popmotion.io/

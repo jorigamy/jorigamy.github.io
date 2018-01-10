@@ -31,8 +31,9 @@ excerpt_separator: "<!--more-->"
 #permalink: /:year/:month/:day/:title.html
 
 #Finding solution for pagination, now is disabled
-
 # paginate: 6
+
+# Site settings
 
 logo: /assets/images/shard-1-5x-3.png
 favicon: flavicon.png
@@ -42,7 +43,7 @@ author :
   name : Antonio Trento
   email : jorigamy@gmail.com
   github : jorigamy/jorigamy.github.io
-  twitter : lantoniotrento
+  twitter : jorigamy
   facebook: lantoniotrento
   linkedin: antoniotrento
   instagram: lantoniotrento
@@ -68,14 +69,14 @@ disqus :
 social:
   name: lantoniotrento
   links:
-    - https://twitter.com/lantoniotrento
+    - https://twitter.com/jorigamy
     - https://www.facebook.com/lantoniotrento
     - https://www.linkedin.com/in/antoniotrento
     - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
     - https://github.com/jorigamy/jorigamy.github.io
     - https://keybase.io/antoniotrento
 twitter:
-  username: lantoniotrento
+  username: jorigamy
 
 facebook:
  app_id: 509727322725898 #the app id from https://developers.facebook.com/

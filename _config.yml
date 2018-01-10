@@ -82,7 +82,7 @@ facebook:
  admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
  publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
 
-maichimp: 'https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=bb4fd5f540' # the link of the embed signup form generated from mailchimp into the html code of the embed form
+mailchimp: https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=bb4fd5f540 # the link of the embed signup form generated from mailchimp into the html code of the embed form
 
 
 algolia:

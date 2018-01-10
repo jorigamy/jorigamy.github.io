@@ -1,6 +1,6 @@
-![Jorigamy screenshot](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/jorigamy-readme.jpg)
-
 # Jorigamy Jekyll Bootstrap4 theme for Github Pages
+
+![Jorigamy screenshot](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/jorigamy-readme.jpg)
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/jorigamy/jorigamy.github.io/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/jorigamy/jorigamy.github.io) <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jorigamy/jorigamy.github.io) -->[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/lantoniotrento) [![Follow me on Steem](https://img.shields.io/badge/Follow&#32;me-on&#32;Steem-orange.svg)](https://steemit.com/@antoniotrento)
 
@@ -15,19 +15,20 @@ To use it you can:
 - Host on github pages (fork it and then edit your url and baseurl in the `_config.yml` file)
 
 <!-- Markdown snippet -->
+
 - [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jorigamy/jorigamy.github.io) (simplest way, just click button connect github edit domain name, and done)
 
 - Or fork it, rename and then [Deploy with cloudcannon](https://cloudcannon.com/) (cloudcannon give you the possibility to use visual editor to edit your blog posts)
 
 Are not you good at doing these things alone? Try **following the installation guide** on the [jorigamy wiki](https://github.com/jorigamy/jorigamy.github.io/wiki/Installation) and feel free to open a [new issue or request](https://github.com/jorigamy/jorigamy.github.io/issues) if you think is necessary.
 
-# The advantages of Jorigamy
+## The advantages of Jorigamy
 
 Jorigamy is not a structured and easily expandable CMS like wordpress, keep it in mind.
 
 Jorigamy is a professional and fast alternative to have a landing page generator for your marketing or a website with a personal blog.
 
-## Advantages
+### Advantages
 
 - The main advantage for this type of tool **is that it is completely free**, at most you might think about buying the domain name for marketing purposes.
 
@@ -37,7 +38,7 @@ Jorigamy is a professional and fast alternative to have a landing page generator
 
 ![Jorigamy Pingdom tools test](https://jorigamy.github.io/assets/images/jorigamy-pingdom-tool-test.png)
 
-# Features inside
+## Features inside
 
 You can configure many of the feature of the theme from [`_config.yml`](https://github.com/jorigamy/jorigamy.github.io/blob/master/_config.yml) file
 
@@ -56,7 +57,7 @@ There are three page layouts
 - signup (used for lead generation - you'll need to edit this part from the includes/themes/default-signup.html the mailchimp code)
 - gallery (enable the gallery layout to show your favourite photos)
 
-## Page template
+### Page template
 
 For every post or page you'll can configure many option for every field that you'll insert in the template section at the top of the file:
 
@@ -78,13 +79,13 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 
 ```
 
-## Post Introduction
+### Post Introduction
 
 ``` markdown
 <!--more--> # except separator the post preview in the blog main page after this separator will not displayed
 ```
 
-## Bootstrap 4
+### Bootstrap 4
 
 [![Bootstrap 4](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/bootstrap-4.png)](https://v4-alpha.getbootstrap.com/)
 
@@ -92,7 +93,7 @@ The theme is supported by the [bootstrap 4 framework](https://v4-alpha.getbootst
 
 Find out everything you need to know about Bootstrap by reading its documentation
 
-## SimpleParallax
+### SimpleParallax
 
 [![Simple parallax](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/simple-parallax-readme.png)](https://anakao-theme.com/simpleparallax/)
 
@@ -107,7 +108,7 @@ To use parallax effect more info at [SimpleParallax website](https://anakao-them
 <img class="simple-parallax" src="path">
 ```
 
-## Animate.css
+### Animate.css
 
 [![Animate CSS](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/animatecss.png)](https://daneden.github.io/animate.css/)
 
@@ -148,20 +149,20 @@ Markdown sample
 # Example{:.animated .infinite .bounce}
 ```
 
-## Popmotion
+### Popmotion
 
 [![Popmotion](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/popmotion-pink.jpg)](https://popmotion.io/)
 
 I implemented a javascript library that allows you to create animations quickly and easily.
 In order to use it you should know a bit of Javascript and [read the documentation](https://popmotion.io/)
 
-## Prism.js
+### Prism.js
 
 A javascript library to quickly create portions of code and share them on your web pages with an excellent highlighter code.
 
 Visit documentation to understad how to use it: http://prismjs.com/
 
-# To do
+## To do
 
 - [x] deploy to Netlify button
 - [x] deploy to cloudcannon
@@ -177,7 +178,7 @@ Visit documentation to understad how to use it: http://prismjs.com/
 
 ![jorigamy presentation](https://github.com/jorigamy/jorigamy.github.io/blob/master/assets/images/jorigamy-presentation.gif?raw=true)
 
-# Say thanks
+## Say thanks
 
 [![like distribution](https://raw.githubusercontent.com/jorigamy/jorigamy.github.io/master/assets/images/like-distribution.gif)](https://gph.is/2gvyXMJ)
 
@@ -192,7 +193,7 @@ Everyone, through his github account is mentioned below:
 - http://www.gradient-scanner.com/ for image gradient analisys
 - https://grahammacphee.com for creating some gifs
 
-## Special thanks
+### Special thanks
 
 - [@antoniotrento](https://github.com/antoniotrento) to make all the theme for Jekyll
 

@@ -7,8 +7,10 @@ categories: jekyll update
 tags: [ jekyll, update ]
 img: 1.jpg
 floating: shard-1-5x-3.png
-btn-link: https://github.com/jorigamy/jorigamy.github.io
 image: assets/images/1.jpg
+btn-icon: fa-github
+btn-text: fork
+btn-link: https://github.com/jorigamy/jorigamy.github.io
 ---
 You’ll find this post in your `_posts` directory.
 

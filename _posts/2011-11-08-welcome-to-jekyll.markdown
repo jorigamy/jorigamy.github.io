@@ -8,6 +8,8 @@ tags: [ jekyll, update ]
 img: 1.jpg
 image: assets/images/1.jpg
 floating: shard-1-5x-3.png
+btn-icon: fa-github
+btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io
 ---
 You’ll find this post in your `_posts` directory.
@@ -22,76 +24,76 @@ Jekyll also offers powerful support for code snippets:
 
 {% highlight javascript %}
 
-    /*jshint browser: true, strict: true, undef: true */
-    /*global define: false */
-
-    ( function( window ) {
-
-    'use strict';
-
-    // class helper functions from bonzo https://github.com/ded/bonzo
-
-    function classReg( className ) {
-      return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-    }
-
-    // classList support for class management
-    // altho to be fair, the api sucks because it won't accept multiple classes at once
-    var hasClass, addClass, removeClass;
-
-    if ( 'classList' in document.documentElement ) {
-      hasClass = function( elem, c ) {
-        return elem.classList.contains( c );
-      };
-      addClass = function( elem, c ) {
-        elem.classList.add( c );
-      };
-      removeClass = function( elem, c ) {
-        elem.classList.remove( c );
-      };
-    }
-    else {
-      hasClass = function( elem, c ) {
-        return classReg( c ).test( elem.className );
-      };
-      addClass = function( elem, c ) {
-        if ( !hasClass( elem, c ) ) {
-          elem.className = elem.className + ' ' + c;
-        }
-      };
-      removeClass = function( elem, c ) {
-        elem.className = elem.className.replace( classReg( c ), ' ' );
-      };
-    }
-
-    function toggleClass( elem, c ) {
-      var fn = hasClass( elem, c ) ? removeClass : addClass;
-      fn( elem, c );
-    }
-
-    var classie = {
-      // full names
-      hasClass: hasClass,
-      addClass: addClass,
-      removeClass: removeClass,
-      toggleClass: toggleClass,
-      // short names
-      has: hasClass,
-      add: addClass,
-      remove: removeClass,
-      toggle: toggleClass
-    };
-
-    // transport
-    if ( typeof define === 'function' && define.amd ) {
-      // AMD
-      define( classie );
-    } else {
-      // browser global
-      window.classie = classie;
-    }
-
-    })( window );
+    /*jshint browser: true, strict: true, undef: true */<br />
+    /*global define: false */<br />
+<br />
+    ( function( window ) {<br />
+<br />
+    'use strict';<br />
+<br />
+    // class helper functions from bonzo https://github.com/ded/bonzo<br />
+<br />
+    function classReg( className ) {<br />
+      return new RegExp("(^|\\s+)" + className + "(\\s+|$)");<br />
+    }<br />
+<br />
+    // classList support for class management<br />
+    // altho to be fair, the api sucks because it won't accept multiple classes at once<br />
+    var hasClass, addClass, removeClass;<br />
+<br />
+    if ( 'classList' in document.documentElement ) {<br />
+      hasClass = function( elem, c ) {<br />
+        return elem.classList.contains( c );<br />
+      };<br />
+      addClass = function( elem, c ) {<br />
+        elem.classList.add( c );<br />
+      };<br />
+      removeClass = function( elem, c ) {<br />
+        elem.classList.remove( c );<br />
+      };<br />
+    }<br />
+    else {<br />
+      hasClass = function( elem, c ) {<br />
+        return classReg( c ).test( elem.className );<br />
+      };<br />
+      addClass = function( elem, c ) {<br />
+        if ( !hasClass( elem, c ) ) {<br />
+          elem.className = elem.className + ' ' + c;<br />
+        }<br />
+      };<br />
+      removeClass = function( elem, c ) {<br />
+        elem.className = elem.className.replace( classReg( c ), ' ' );<br />
+      };<br />
+    }<br />
+<br />
+    function toggleClass( elem, c ) {<br />
+      var fn = hasClass( elem, c ) ? removeClass : addClass;<br />
+      fn( elem, c );<br />
+    }<br />
+<br />
+    var classie = {<br />
+      // full names<br />
+      hasClass: hasClass,<br />
+      addClass: addClass,<br />
+      removeClass: removeClass,<br />
+      toggleClass: toggleClass,<br />
+      // short names<br />
+      has: hasClass,<br />
+      add: addClass,<br />
+      remove: removeClass,<br />
+      toggle: toggleClass<br />
+    };<br />
+<br />
+    // transport<br />
+    if ( typeof define === 'function' && define.amd ) {<br />
+      // AMD<br />
+      define( classie );<br />
+    } else {<br />
+      // browser global<br />
+      window.classie = classie;<br />
+    } <br />
+<br />
+    })( window );<br />
 
 {% endhighlight %}
 

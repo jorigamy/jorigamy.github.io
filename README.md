@@ -192,6 +192,7 @@ Everyone, through his github account is mentioned below:
 - https://ezgif.com/optimize for gif optimization
 - http://www.gradient-scanner.com/ for image gradient analisys
 - https://grahammacphee.com for creating some gifs
+- https://proofleads.com/ for the social proof script
 
 ### Special thanks
 

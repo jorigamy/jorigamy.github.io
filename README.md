@@ -193,6 +193,7 @@ Everyone, through his github account is mentioned below:
 - http://www.gradient-scanner.com/ for image gradient analisys
 - https://grahammacphee.com for creating some gifs
 - [https://proofleads.com/](https://app.proofleads.com/?action=signup&referral-id=nITVuMDQjpFSZPtS) for the **free** social proof script
+- [https://namecheap.com](http://www.tkqlhce.com/click-8532282-12815848) for premium domains name
 
 ### Special thanks
 

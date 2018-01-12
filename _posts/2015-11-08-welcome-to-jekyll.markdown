@@ -5,7 +5,7 @@ tagline: "Hello world from a new Jekyll blog"
 date:   2015-11-08 22:43:35 +0100
 categories: jekyll update
 tags: [ jekyll, update ]
-img: 1.jpg
+img: 2.jpg
 floating: shard-1-5x-3.png
 image: assets/images/1.jpg
 btn-icon: fa-github

@@ -3,8 +3,9 @@
 <div class="welcome d-flex justify-content-center flex-column">
 
         <div class="inner-wrapper mt-auto mb-auto">
-          <h1 class="slide-in">{{page.title}}</h1><br />
-
+          <h1 class="hidden-sm-down slide-in">{{page.title}}</h1>
+          <h1 style="font-size: 3.25rem!important;" class="hidden-md-up slide-in">{{page.title}}</h1>  
+          <br />
           <p style="font-size: 1.50rem; font-weight: 300;" class="slide-in">{{page.tagline}}</p>
           <div class="action-links slide-in"><a href="{{page.btn-link}}" class="btn btn-primary btn-pill align-self-center mr-2"><i class="fa {{page.btn-icon}} mr-1"></i> {{page.btn-text}}</a> <a href="#" data-scroll-to="#introduction" id="scroll-to-content" class="btn btn-outline-light btn-pill align-self-center">Learn More</a></div><div class="action-links slide-in"></div>
       </div>

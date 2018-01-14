@@ -85,6 +85,7 @@ facebook:
 
 mailchimp: https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=bb4fd5f540 # the link of the embed signup form generated from mailchimp into the html code of the embed form
 
+addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 
 algolia:
   application_id: 'GU8HT2BGPU'

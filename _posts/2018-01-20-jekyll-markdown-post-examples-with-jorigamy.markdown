@@ -1,9 +1,9 @@
 ---
 layout: post-half
-title:  "2017 Welcome to Jekyll!"
-tagline: "Hello world from a new Jekyll blog"
-date:   2017-11-08 22:43:35 +0100
-categories: jekyll update
+title:  "Jekyll markdown post examples with Jorigamy!"
+tagline: "How to exploit the full potential of posts in Markdown on Jekyll and the Jorigamy theme	"
+date:   2018-01-20 20:43:35 +0100
+categories: jekyll howto
 tags: [ jekyll, update ]
 img: 1.jpg
 floating: shard-1-5x-3.png
@@ -12,11 +12,45 @@ btn-icon: fa-github
 btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io
 ---
-You’ll find this post in your `_posts` directory.
+Thanks to Jekyll you can quickly test your business ideas on the web completely free, thanks to the creation of a landing pages structure and a good marketing strategy.
 
 <!--more-->
+If your marketing strategy includes blogging, thanks to Jorigamy you will be able to create posts in Markdown, which is a special language that uses special symbols to change the formatting of your text, and the underlying system will convert it to html.
 
- Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Moreover, thanks to the fact that we are under Jekyll, I will be able to quickly import pieces of HTML code (therefore HTML elements pre-built in other files) through the possibilities offered by the [liquid tag](https://jekyllrb.com/docs/templates/).
+
+In addition, Jorigamy has integrated [Prism](http://prismjs.com/) by default to use the highlighted code, which supports many languages.
+
+## How to post in markdown
+
+<img align="right" class="fluid-img" src="assets/images/posts/2018-01-20-jekyll-markdown-post-examples-with-jorigamy/jorigamy-markdown-post-editing.png">
+
+This post wants to be able to quickly introduce you to the understanding and use of the markdown language.
+
+Each file that you can create will have the extension `.md` or `.markdown`, a header of your post where you can enter different information related to the post as the title, description, tag, main image and other useful settings.
+
+Here is an example of a header:
+
+<pre><code class="language-markdown">
+---
+layout: post-half
+title:  "Jekyll markdown post examples with Jorigamy!"
+tagline: "How to exploit the full potential of posts in Markdown on Jekyll and the Jorigamy theme	"
+date:   2018-01-20 20:43:35 +0100
+categories: jekyll howto
+tags: [ jekyll, update ]
+img: 1.jpg
+floating: shard-1-5x-3.png
+image: assets/images/1.jpg
+btn-icon: fa-github
+btn-text: fork
+btn-link: https://github.com/jorigamy/jorigamy.github.io
+---
+Thanks to Jekyll you can quickly test your business ideas on the web completely free, thanks to the creation of a landing pages structure and a good marketing strategy.
+
+<!--more-->
+...
+</code></pre>
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 

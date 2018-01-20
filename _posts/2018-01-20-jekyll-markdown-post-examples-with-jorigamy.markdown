@@ -34,7 +34,7 @@ Here is an example of a header:
 <pre><code class="language-markdown">
 ---
 layout: post-half
-title:  "Jekyll markdown post examples with Jorigamy!"
+title:  "Jorigamy markdown post sample"
 tagline: "How to exploit the full potential of posts in Markdown on Jekyll and the Jorigamy theme	"
 date:   2018-01-20 20:43:35 +0100
 categories: jekyll howto
@@ -51,6 +51,10 @@ Thanks to Jekyll you can quickly test your business ideas on the web completely 
 <!--more-->
 ...
 </code></pre>
+
+after the introduction of your post there will be the actual text, usually to write in markedown we use a text editor like Visual Studio Code or Atom.
+
+Thanks to the special characters you can quickly emphasize your posts, you can quickly insert elements such as title images, use italics and bold, take advantage of classes and much more.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 

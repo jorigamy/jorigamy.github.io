@@ -144,6 +144,28 @@ Format: ![Alt Text](url){:.img-fluid}
 
 </code></pre>
 
+| ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .image-fluid } | I am text to the right I am text to the right I am text to the right I am text to the right |
+
+
+<pre><code class="language-markdown">
+| ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .image-fluid } | I am text to the right I am text to the right I am text to the right I am text to the right |
+
+
+</code></pre>
+
+### Video
+
+	<div class="video-container">
+	<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen></iframe>
+	</div>
+
+
+<pre><code class="language-html">
+	<div class="video-container">
+	<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen></iframe>
+	</div>
+</code></pre>
+
 ### Links
 
 ### Blockquotes

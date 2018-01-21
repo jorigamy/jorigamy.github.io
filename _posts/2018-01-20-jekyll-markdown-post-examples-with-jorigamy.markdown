@@ -100,7 +100,8 @@ Unordered:
 
 * Item 1
 * Item 2
-* Item 2a * Item 2b
+ * Item 2a 
+ * Item 2b
 
 Ordered:
 
@@ -113,7 +114,8 @@ Ordered:
 <pre><code class="language-markdown">
 * Item 1
 * Item 2
-* Item 2a * Item 2b
+ * Item 2a 
+ * Item 2b
 
 1. Item 1 
 2. Item 2 

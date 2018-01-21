@@ -23,7 +23,7 @@ In addition, Jorigamy has integrated [Prism](http://prismjs.com/) by default to 
 
 ## How to post in markdown
 
-<img align="right" class="fluid-img" src="assets/images/posts/2018-01-20-jekyll-markdown-post-examples-with-jorigamy/jorigamy-markdown-post-editing.png">
+<img align="right" class="img-fluid" src="assets/images/posts/2018-01-20-jekyll-markdown-post-examples-with-jorigamy/jorigamy-markdown-post-editing.png">
 
 This post wants to be able to quickly introduce you to the understanding and use of the markdown language.
 
@@ -128,7 +128,7 @@ Each post needs exceptional images to break the text or to better describe the p
 
 To specify a css class in a markdown construct you will have to use this word: `{:.class}`
 
-![Lost in space](https://fullit.github.io/assets/img/big/lost_in_404_space.jpg){: .fluid-img }
+![Lost in space](https://fullit.github.io/assets/img/big/lost_in_404_space.jpg){: .img-fluid }
 
 <pre><code class="language-markdown">
 ![GitHub Logo](/images/logo.png){:.img-fluid}
@@ -137,18 +137,18 @@ Format: ![Alt Text](url){:.img-fluid}
 </code></pre>
 
 
-| In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe2.jpg "Description of lost in space image"){: .fluid-img } |
+| In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe2.jpg "Description of lost in space image"){: .img-fluid } |
 
 <pre><code class="language-markdown">
-| In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe2.jpg "Description of lost in space image"){: .fluid-img } |
+| In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe2.jpg "Description of lost in space image"){: .img-fluid } |
 
 </code></pre>
 
-| ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .fluid-img } | I am text to the right I am text to the right I am text to the right I am text to the right |
+| ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .img-fluid } | I am text to the right I am text to the right I am text to the right I am text to the right |
 
 
 <pre><code class="language-markdown">
-| ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .fluid-img } | I am text to the right I am text to the right I am text to the right I am text to the right |
+| ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .img-fluid } | I am text to the right I am text to the right I am text to the right I am text to the right |
 
 
 </code></pre>

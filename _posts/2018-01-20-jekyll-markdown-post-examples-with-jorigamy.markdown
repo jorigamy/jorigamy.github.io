@@ -56,6 +56,110 @@ after the introduction of your post there will be the actual text, usually to wr
 
 Thanks to the special characters you can quickly emphasize your posts, you can quickly insert elements such as title images, use italics and bold, take advantage of classes and much more.
 
+## The markdown elements for your posts
+
+Here are all the markdown elements that you can use in the posts of your blog Jorigamy with Jekyll.
+
+### Headers
+
+You can quickly enhance paragraphs by using a title using the # before text:
+
+# Heading1
+## Title2
+### Title 3
+#### Title 4
+##### Title 5
+
+<pre><code class="language-markdown">
+# Heading1
+## Title2
+### Title 3
+#### Title 4
+##### Title 5
+</code></pre>
+
+### hemphasis
+
+Each post needs an emphasis to better clarify the salient features of your article, so you can take advantage of the italics and bold to take stock of the situation.
+
+*This text will be italic* _This will also be italic_
+**This text will be bold** __This will also be bold__
+*You **can** combine them*
+
+<pre><code class="language-markdown">
+*This text will be italic* _This will also be italic_
+**This text will be bold** __This will also be bold__
+*You **can** combine them*
+</code></pre>
+
+### Lists
+
+Lists are a very useful tool for clarifying and describing information in a structured way:
+
+Unordered:
+
+* Item 1
+* Item 2
+* Item 2a * Item 2b
+
+Ordered:
+
+1. Item 1 
+2. Item 2 
+3. Item 3
+ * Item 3a 
+ * Item 3b
+
+<pre><code class="language-markdown">
+* Item 1
+* Item 2
+* Item 2a * Item 2b
+
+1. Item 1 
+2. Item 2 
+3. Item 3
+ * Item 3a 
+ * Item 3b
+</code></pre>
+
+### Images
+
+Each post needs exceptional images to break the text or to better describe the point of the situation. Remember to take advantage of the classes to make your images responisive otherwise on mobile they could ruin the layout.
+
+To specify a css class in a markdown construct you will have to use this word: `{:.class}`
+
+![Lost in space](https://fullit.github.io/assets/img/big/lost_in_404_space.jpg){: .image-fluid }
+
+<pre><code class="language-markdown">
+![GitHub Logo](/images/logo.png){:.img-fluid}
+
+Format: ![Alt Text](url){:.img-fluid}
+</code></pre>
+
+
+| In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe2.jpg "Description of lost in space image"){: .image-fluid } |
+
+<pre><code class="language-markdown">
+| In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe2.jpg "Description of lost in space image"){: .image-fluid } |
+
+</code></pre>
+
+### Links
+
+### Blockquotes
+
+### Backslash escapes
+
+### Code blocks
+
+### Task lists
+
+### Tables
+
+### Emoji
+
+
+
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 Jekyll also offers powerful support for code snippets:

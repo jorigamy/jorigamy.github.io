@@ -60,7 +60,7 @@ Thanks to the special characters you can quickly emphasize your posts, you can q
 
 Here are all the markdown elements that you can use in the posts of your blog Jorigamy with Jekyll.
 
-### Headers
+### Headers 
 
 You can quickly enhance paragraphs by using a title using the # before text:
 
@@ -141,23 +141,19 @@ Format: ![Alt Text](url){:.img-fluid}
 
 <pre><code class="language-markdown">
 | In markdown you can quikly use tables to align your images in right way, remember to style as you like the CSS of your table to have a amazing results. Use to size your pics in right way for best results. | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe2.jpg "Description of lost in space image"){: .img-fluid } |
-
 </code></pre>
 
 | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .img-fluid } | I am text to the right I am text to the right I am text to the right I am text to the right |
 
-
 <pre><code class="language-markdown">
 | ![Lost in space with description](https://fullit.github.io/assets/img/big/universe3.jpg "Description of lost in space image"){: .img-fluid } | I am text to the right I am text to the right I am text to the right I am text to the right |
-
-
 </code></pre>
 
 ### Video
 
-	<div class="video-container">
+<div class="video-container">
 	<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen></iframe>
-	</div>
+</div>
 
 
 <pre><code class="language-html">

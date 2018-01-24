@@ -165,11 +165,11 @@ Format: ![Alt Text](url){:.img-fluid}
 ### Video
 
 <div class="video-container">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen></iframe>
+	<iframe width="100%" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
-<pre><code class="language-html">
+<pre><code class="language-markdown">
 
 	<div class="video-container">
 	<iframe width="100%" height="auto" src="https://www.youtube.com/embed/ikbYpAHkurs?ecver=1" frameborder="0" allowfullscreen></iframe>

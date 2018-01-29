@@ -15,11 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: <b style='color :#007bff; font-weight:900!important;'>Jori</b><span>gamy</span>
-email: jorigamy@gmail.com
+email: contact@sugawcom.fr
 description: >- # this means to ignore newlines until "baseurl:"
-  Jorigamy is a porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> a bootstrap4 starter template intalled for Jekyll static website generator.
+  SugawCOM est votre cabinet de conseil en communication et affaires européennes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jorigamy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sugawcom.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 excerpt_separator: "<!--more-->"
 
@@ -40,16 +40,16 @@ favicon: flavicon.png
 navbar-logo: jorigamy-logo.svg
 
 author :
-  name : Antonio Trento
-  email : jorigamy@gmail.com
-  github : jorigamy/jorigamy.github.io
-  twitter : jorigamy
-  facebook: lantoniotrento
-  linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
+  name : Andy Zébus
+  email : andy@sugawcom.fr
+  github : Seyken971
+  twitter : Seyken971
+  facebook: SugawCOM
+  linkedin: andy-zebus
+  instagram: SugawCOM
+  pinterest: SugawCOM
   google: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
-  feedburner :
+#  feedburner :
 
 google :
     tracking_id : 'UA-109407288-1' # Id google analitics
@@ -67,16 +67,15 @@ disqus :
 
 # data for jekyll-seo-tags plugins
 social:
-  name: lantoniotrento
+  name: AndyZébus
   links:
-    - https://twitter.com/jorigamy
-    - https://www.facebook.com/lantoniotrento
-    - https://www.linkedin.com/in/antoniotrento
-    - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
-    - https://github.com/jorigamy/jorigamy.github.io
-    - https://keybase.io/antoniotrento
+    - https://twitter.com/Seyken971
+    - https://www.facebook.com/SugawCOM
+    - https://www.linkedin.com/in/andy-zebus
+    - https://plus.google.com/u/0/b/118220144492719142476/118220144492719142476
+    - https://github.com/Seyken971
 twitter:
-  username: jorigamy
+  username: Seyken971
 
 facebook:
  app_id: 509727322725898 #the app id from https://developers.facebook.com/

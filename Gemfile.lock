@@ -13,7 +13,7 @@ GEM
     awesome_print (1.8.0)
     colorator (1.1.0)
     fastimage (2.1.1)
-    ffi (1.9.18)
+    ffi (1.13.1)
     filesize (0.1.1)
     forwardable-extended (2.6.0)
     httpclient (2.8.3)

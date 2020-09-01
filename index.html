@@ -364,8 +364,9 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
 
                     <h1 style="font-weight: 500;" class="text-center mb-4 display-3">What people say🔥</h1>
                     <p style="font-size: 1.50rem; font-weight: 300;" class="text-center">Find out what people think of Jorigamy:</p>
-                    {% include JB/disqus.html %}                   
-
+			{% if site.disqus.short_name %}
+				{% include JB/disqus.html %}
+			{% endif %}
                 </div>
             </div>          
     </div>    

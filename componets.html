@@ -317,6 +317,80 @@ custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html
                     <p class="h1 animated infinite bounce">🛠</p>
                     <h2 class="text-white">Google Auto-Banner positioning integration</h2>
                     <p class="text-muted col-lg-8 col-md-10 ml-auto mr-auto">Jorygamy come with <b><u>an integrated plugin to integrate google adsense, tag manager and analitycs</u></b>. Check your _config.yml file and edit the ID's to integrate your Google Tag manager. in base of your ADSense setting will dysplay automatic Ads and <b><u>by using {% include JB/ads-block.html %} you will inclunde in your HTML pages!</u></b></p><br/ ><br/ >
+                    {% highlight javascript %}
+
+    /*jshint browser: true, strict: true, undef: true */<br />
+    /*global define: false */<br />
+<br />
+    ( function( window ) {<br />
+<br />
+    'use strict';<br />
+<br />
+    // class helper functions from bonzo https://github.com/ded/bonzo<br />
+<br />
+    function classReg( className ) {<br />
+      return new RegExp("(^|\\s+)" + className + "(\\s+|$)");<br />
+    }<br />
+<br />
+    // classList support for class management<br />
+    // altho to be fair, the api sucks because it won't accept multiple classes at once<br />
+    var hasClass, addClass, removeClass;<br />
+<br />
+    if ( 'classList' in document.documentElement ) {<br />
+      hasClass = function( elem, c ) {<br />
+        return elem.classList.contains( c );<br />
+      };<br />
+      addClass = function( elem, c ) {<br />
+        elem.classList.add( c );<br />
+      };<br />
+      removeClass = function( elem, c ) {<br />
+        elem.classList.remove( c );<br />
+      };<br />
+    }<br />
+    else {<br />
+      hasClass = function( elem, c ) {<br />
+        return classReg( c ).test( elem.className );<br />
+      };<br />
+      addClass = function( elem, c ) {<br />
+        if ( !hasClass( elem, c ) ) {<br />
+          elem.className = elem.className + ' ' + c;<br />
+        }<br />
+      };<br />
+      removeClass = function( elem, c ) {<br />
+        elem.className = elem.className.replace( classReg( c ), ' ' );<br />
+      };<br />
+    }<br />
+<br />
+    function toggleClass( elem, c ) {<br />
+      var fn = hasClass( elem, c ) ? removeClass : addClass;<br />
+      fn( elem, c );<br />
+    }<br />
+<br />
+    var classie = {<br />
+      // full names<br />
+      hasClass: hasClass,<br />
+      addClass: addClass,<br />
+      removeClass: removeClass,<br />
+      toggleClass: toggleClass,<br />
+      // short names<br />
+      has: hasClass,<br />
+      add: addClass,<br />
+      remove: removeClass,<br />
+      toggle: toggleClass<br />
+    };<br />
+<br />
+    // transport<br />
+    if ( typeof define === 'function' && define.amd ) {<br />
+      // AMD<br />
+      define( classie );<br />
+    } else {<br />
+      // browser global<br />
+      window.classie = classie;<br />
+    } <br />
+<br />
+    })( window );<br />
+
+{% endhighlight %}
                 </div>
                 {% include JB/ads-block.html %}
             </div>

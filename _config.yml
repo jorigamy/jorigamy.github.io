@@ -88,10 +88,10 @@ mailchimp: https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab8
 addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 
 cdn_scripts:
-  script1:
-    type: css
+  script1: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.compat.css'
+    type: 'css'
   script2:
-    type: js
+    type: 'js'
   script3:
     type:
   script4:

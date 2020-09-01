@@ -87,17 +87,17 @@ mailchimp: https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab8
 
 addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 
-cdn_scripts:
-  script1: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.compat.css'
-    type: 'css'
-  script2:
-    type: 'js'
-  script3:
-    type:
-  script4:
-    type:
-  script5:
-    type:
+cdn_scripts: 
+  link: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.compat.css'
+  type: 'css'
+  link: ''
+  type: 'js'
+  link:
+  type:
+  link:
+  type:
+  link:
+  type:
 
 algolia:
   application_id: 'GU8HT2BGPU'

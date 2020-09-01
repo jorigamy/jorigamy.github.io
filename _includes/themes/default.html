@@ -30,9 +30,10 @@ lantoniotrento@gmail.com
       <link href="{{ site.url }}{{ site.baseurl }}/assets/css/main-demo.css?v=1.0.2" rel="stylesheet">
       <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/prism.css">  
       <!-- CYCLE OF GLOBALS CSS FROM _config.yml FILE DATAS -->
-      {% for site.cdn_scripts %}
-	      {% if site.cdn_scripts.type=='css' && site.link %}<link {% if site.cdn_scripts.async=='yes'%}async{% endif %} {% if site.cdn_scripts.defer=='yes'%}defer="defer"{% endif %} rel="stylesheet" href="{{ cdn_scripts.link }}"> {% endif %}
-      {% endfor %} 	
+      {% if site.scripts.css %}
+	      {{ site.scripts.css }} 
+      {% endif %}
+      	
 
 <!-- block for amp-jekyll plugin -->
       {% if page.path contains '_posts' %}
@@ -153,9 +154,9 @@ script.parentNode.insertBefore(pl, script);
       <script src="{{ site.url }}{{ site.baseurl }}/assets/js/prism.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.3.0/cloudinary-core-shrinkwrap.min.js"></script>
       <!-- CYCLE OF GLOBALS JS FROM _config.yml FILE DATAS -->
-      {% for site.cdn_scripts %}
-	      {% if site.cdn_scripts.type=='js' && site.link %}<link {% if site.cdn_scripts.async=='yes'%}async{% endif %} {% if site.cdn_scripts.defer=='yes'%}defer="defer"{% endif %} type='text/javascript' href="{{ cdn_scripts.link }}"> {% endif %}
-      {% endfor %} 
+      {% if site.scripts.js %}
+	      {{ site.scripts.js }} 
+      {% endif %}
       <script>$(document).ready(function() {
           $('.simple-parallax').simpleParallax();
           $('.simple-parallax-down').simpleParallax({scale: '1.20', orientation: 'down'});

@@ -90,14 +90,25 @@ addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 cdn_scripts: 
   link: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.compat.css'
   type: 'css'
-  link: ''
+  async: 'yes'
+  defer: 'yes'
+  link: '{{ site.url }}{{ site.baseurl }}/assets/js/popmotion.global.min.js'
   type: 'js'
-  link:
-  type:
-  link:
-  type:
-  link:
-  type:
+  async: 'yes'
+  defer: 'yes'
+  # AND GO ON WITH THE SCRIPT DESIRED
+  # how to uselink:
+  # how to usetype:
+  # how to useasync: 'yes'
+  # how to usedefer: 'yes'
+  # how to uselink:
+  # how to usetype:
+  # how to useasync: 'yes'
+  # how to usedefer: 'yes'
+  # how to uselink:
+  # how to usetype:
+  # how to useasync: 'yes'
+  # how to usedefer: 'yes'
 
 algolia:
   application_id: 'GU8HT2BGPU'

@@ -87,6 +87,18 @@ mailchimp: https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab8
 
 addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 
+cdn_scripts:
+  script1:
+    type: css
+  script2:
+    type: js
+  script3:
+    type:
+  script4:
+    type:
+  script5:
+    type:
+
 algolia:
   application_id: 'GU8HT2BGPU'
   index_name:     'your_index_name' # I'm looking to understand how it can be set the index_name of agolia https://www.algolia.com/apps/GU8HT2BGPU/dashboard and https://community.algolia.com/jekyll-algolia/getting-started.html

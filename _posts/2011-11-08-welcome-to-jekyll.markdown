@@ -34,9 +34,11 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 Jekyll also offers powerful support for code snippets:
 
-
+## Social locker here
 
 {% highlight javascript %}
+
+## End social locker
 
     /*jshint browser: true, strict: true, undef: true */<br />
     /*global define: false */<br />

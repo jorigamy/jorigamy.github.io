@@ -15,30 +15,6 @@ locker: "yes"
 locker-content: 'Share a secret'
 ---
 	
-	
-	    <article id="default-usage">
-        <section>
-            <div class="to-lock" style="display: none; background-color: #f9f9f9; text-align: center;">
-                <div class="header">
-                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing</strong></p>
-                    <p>
-                        Maecenas sed consectetur tortor. Morbi non vestibulum eros, at posuere nisi praesent consequat.
-                    </p>
-                </div>
-                <div class="image">
-                    <img src="https://jorigamy.github.io/assets/img/image.jpg" alt="Preview image"><br />
-                    <i>Aenean vel sodales sem. Morbi et felis eget felis vulputate placerat.</i>
-                </div>
-                <div class="footer">
-                    <p>Curabitur a rutrum enim, sit amet ultrices quam. 
-                    Morbi dui leo, euismod a diam vitae, hendrerit ultricies arcu. 
-                    Suspendisse tempor ultrices urna ut auctor.</p>
-                </div>
-            </div>
-        </section>
-    </article>
-	
-	
 You’ll find this post in your `_posts` directory.
 
 <!--more-->

@@ -14,7 +14,7 @@ btn-link: https://github.com/jorigamy/jorigamy.github.io
 locker: "yes"
 locker-content: "Know the right secrets and be rich"
 locker-header: "Discover The secrets and became a web ninja"
-locker-description: "<p>With the secret you'll can metamorph into a new generation web ninja</p><h1>Testing the locker</h1>"
+locker-description: <p>With the secret you'll can metamorph into a new generation web ninja</p><h1>Testing the locker</h1>
 facebook-locker: "https://facebook.com/lantoniotrento"
 locker-tweet-url: "sitelink.com"
 locker-tweet-text: "This is the text of the tweet"

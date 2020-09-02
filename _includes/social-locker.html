@@ -1,5 +1,37 @@
-<div>
-    <div class="to-lock">
-     {{ page.locker }}
-    </div> 
-</div>
+{% if page.locker=="yes" %}
+<script>
+jQuery(document).ready(function ($) {
+   $('.to-lock').sociallocker({
+	text:{
+	   header: '{{ page.locker-header }}',
+	   message: '{{ page.locker-description }}'
+	},
+	overlap:{
+	   mode: 'blurring'
+	},
+	facebook:{
+	   like:{
+	      url: 'https://facebook.com/{{ site.facebook-locker }}'
+	   }
+	},
+	linkedin:{
+	   share:{
+	      url: '{{ site.url }}{{ page.baseurl }}'
+	   }
+	},
+	buttons:{
+	   order: ["facebook-like","twitter-tweet","linkedin-share"],
+	   counters: false,
+	   lazy: false
+	}
+   });
+});
+</script>
+<article id="default-usage">
+    <section>
+        <div class="to-lock onp-sl-content" style="display: none; background-color: #f9f9f9; text-align: center;">
+            {{ page.locker-content }}
+        </div>
+    </section>
+</article>
+{% endif %}

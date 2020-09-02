@@ -14,32 +14,6 @@ btn-link: https://github.com/jorigamy/jorigamy.github.io
 locker: "yes"
 locker-content: 'Share a secret'
 ---
-
-	<script>
-	jQuery(document).ready(function ($) {
-   	$('.to-lock').sociallocker({
-	theme: 'flat',
-	overlap:{
-	   position: 'top'
-	},
-	twitter:{
-	   follow:{
-	      url: 'https://twitter.com/lantoniotrento'
-	   }
-	},
-	linkedin:{
-	   share:{
-	      url: 'https://jorigamy.github.io'
-	   }
-	},
-	buttons:{
-	   order: ["facebook-like","twitter-tweet","twitter-follow","linkedin-share"],
-	   counters: false,
-	   lazy: false
-	}
-   	});
-	});
-	</script>
 	
 	
 	    <article id="default-usage">

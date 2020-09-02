@@ -11,6 +11,8 @@ floating: shard-1-5x-3.png
 btn-icon: fa-github
 btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io
+locker: yes
+locker-content: "Share a secret"
 ---
 You’ll find this post in your `_posts` directory.
 

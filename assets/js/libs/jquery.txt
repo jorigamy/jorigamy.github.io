@@ -1,0 +1,3 @@
+<script src="https://jorigamy.github.io/assets/js/libs/jquery.min.js"></script>
+<script src="https://jorigamy.github.io/assets/js/libs/jquery.ui.highlight.min.js"></script>
+<script src="https://jorigamy.github.io/assets/js/pandalock

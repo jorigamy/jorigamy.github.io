@@ -32,7 +32,6 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 ## Social locker here
 
-{% if page.locker=="yes" %}
 <script>
 jQuery(document).ready(function ($) {
    $('.to-lock').sociallocker({
@@ -76,7 +75,6 @@ jQuery(document).ready(function ($) {
         </div>
     </section>
 </article>
-{% endif %}
 
 
 

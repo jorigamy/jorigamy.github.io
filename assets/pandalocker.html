@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Social Locker for jQuery</title>
+
+        <script src="https://www.prismascacchi.com/js/libs/jquery.min.js"></script>
+        <script src="https://www.prismascacchi.com/js/libs/jquery.ui.highlight.min.js"></script>
+        
+        <script src="https://www.prismascacchi.com/js/jquery.sortable.min.js"></script>
+        <script src="https://www.prismascacchi.com/js/wizard.js"></script>
+        
+        <script src="https://www.prismascacchi.com/js/pandalocker.2.1.0.js?6"></script>
+        <link type="text/css" rel="stylesheet" href="https://www.prismascacchi.com/css/pandalocker.2.1.0.min.css" />
+
+        <link href="https://www.prismascacchi.com/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>      
+        <link href="https://www.prismascacchi.com/css/wizard.css" rel="stylesheet" type="text/css"/>    
+
+        <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+<body>
+<div class="slg-dark-layer"></div>
+<div class="slg-generator-wrap">
+  <div class="slg-example-content">
+      
+    <div class="alert alert-info">
+      <strong>Configuration Wizard</strong><br />
+      <div>Social buttons may not work properly locally, please make sure that you uploaded the archive you got from CodeCanyon and run the configuration wizard on your website.</div>
+    </div>   
+      
+    <article id="default-usage">
+        <section>
+            <div class="to-lock" style="display: none; background-color: #f9f9f9; text-align: center;">
+                <div class="header">
+                    <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing</strong></p>
+                    <p>
+                        Maecenas sed consectetur tortor. Morbi non vestibulum eros, at posuere nisi praesent consequat.
+                    </p>
+                </div>
+                <div class="image">
+                    <img src="https://www.prismascacchi.com/img/image.jpg" alt="Preview image"><br />
+                    <i>Aenean vel sodales sem. Morbi et felis eget felis vulputate placerat.</i>
+                </div>
+                <div class="footer">
+                    <p>Curabitur a rutrum enim, sit amet ultrices quam. 
+                    Morbi dui leo, euismod a diam vitae, hendrerit ultricies arcu. 
+                    Suspendisse tempor ultrices urna ut auctor.</p>
+                </div>
+            </div>
+        </section>
+    </article>
+      
+    <div id="slg-code-box-1" class="slg-code-box">
+        <h4><strong>1. Include jQuery and the plugin files in to your page</strong></h4>
+        <div class="slg-code-box-hint">
+        Upload files from the folder <strong>Plugin</strong> on your website and add the code below before the tag &lt;/head&gt; on the page where you wish put the locker.
+        If you aready use jQuery on your website, you can skip the first line.
+        </div>
+        <textarea onfocus="this.select();" onmouseup="return false;" style='font-family:Consolas, monospace;'>&lt;script src="https://www.prismascacchi.com/js/libs/jquery.min.js"&gt;&lt;/script&gt;&#013;&lt;script src="https://www.prismascacchi.com/js/libs/jquery.ui.highlight.min.js">&lt;/script&gt;&#013;&lt;script src="https://www.prismascacchi.com/js/pandalocker.2.1.0.min.js">&lt;/script&gt;&#013;&lt;link type="text/css" rel="stylesheet" href="https://www.prismascacchi.com/css/pandalocker.2.1.0.min.css"&gt;</textarea>
+
+        <h4 style='margin-top: 10px;'><strong>2. Generate And Paste Locker Code</strong></h4>
+        <div class="slg-code-box-hint">
+          Then paste the locker code (after the code above and before the tag &lt;/head&gt;). Don't forget to apply the CSS selector you set (by default, the CSS class 'to-lock') to content you wish to lock. 
+        </div>
+    </div>
+    <a href="#" class="slg-show-code-box btn btn-primary">Generate Locker Code To Paste</a>
+
+    <div style="padding: 20px 0 20px 0;">
+        OnePress (c) 2016. Learn more about <a href="http://codecanyon.net/item/social-locker-for-jquery/3408941" target="_blank" class="text-primary"><strong>Social Locker for jQuery</strong></a>.
+    </div>
+    
+    <div id="slg-code-box-2" class="slg-code-box">
+          <a href="#" class="slg-code-box-button-close">X</a>
+          <h4 style='margin-bottom: 10px;'><strong>Copy the code and paste it into your page:</strong></h4>
+          <textarea onfocus="this.select();" onmouseup="return false;" style='font-family:Consolas, monospace;'></textarea>
+    </div>
+  </div>
+    
+  <div class="slg-setting-panel slg-setting-panel-left">
+        <p style="margin-top: 0px;">
+            <label for="slg-selector"><strong>CSS Selector</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Specify a CSS selector which matches the content you wish to lock.</span>
+            </label>
+            <input type="text" id="slg-selector" placeholder=".to-lock">
+        </p>
+        <hr />
+        <p>
+            <label for="slg-text-header"><strong>Locker Header</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Type a header which attracts attention or calls to action. You can leave this field empty.</span>
+            </label>
+            <input type="text" id="slg-text-header" value="This content is locked" data-default="This content is locked">
+        </p> 
+        <p>
+            <label for="slg-text-message"><strong>Locker Message</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Type a message which will appear under the header. HTML tags allowed.</span>
+            </label>
+            <textarea id="slg-text-message" data-default="Please support us, use one of the buttons below to unlock the content.">Please support us, use one of the buttons below to unlock the content.</textarea>
+        </p> 
+        <p>
+            <label for="slg-theme"><strong>Theme</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Select the most suitable theme.</span>
+            </label>
+            <select id="slg-theme" data-default="starter">
+                <option value="starter">Starter</option>
+                <option value="secrets">Secret</option>
+                <option value="flat" selected>Flat</option>
+                <option value="dandyish">Dandish</option>
+                <option value="glass">Glass</option>
+            </select>
+        </p>
+        <p>
+            <label for="slg-overlap-mode"><strong>Overlap Mode</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Choose the way how your locker should lock the content. The blurring mode works in all browsers except IE 10-11 (In IE 10-11, the transparency mode will be applied).</span>
+            </label>
+            <select id="slg-overlap-mode" data-default="full">
+                <option value="full">Full</option>
+                <option value="transparence">Transparancy</option>
+                <option value="blurring">Blurring</option>              
+            </select>
+        </p>
+        <p>
+            <label for="slg-overlap-position"><strong>Overlap Position</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">A position where the locker has to appear.</span>
+            </label>
+            <select id="slg-overlap-position" data-default="middle">
+                <option value="top">Top</option>
+                <option value="middle" selected>Middle</option>
+                <option value="scroll">Scrolling</option>              
+            </select>
+        </p>
+        <p>
+            <label for="slg-overlap-intensity"><strong>Blurring Intensity</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">You can change the overlap intensity for the blurring mode.</span>
+            </label>
+            <select id="slg-overlap-intensity" data-default="5">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5" selected>5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </p>
+        <hr />
+        <p>
+            <label for="slg-locker-timer"><strong>Timer Interval</strong><i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Sets a countdown interval for the locker.</span>
+            </label>
+            <input type="text" id="slg-locker-timer" data-default="0">
+        </p>
+        <p>
+            <label><input type="checkbox" id="slg-locker-close" data-default="0"> Close Icon<i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Shows the Close Icon at the corner.</span>
+            </label>
+        </p>
+        <hr />
+        <p>
+            <label><input type="checkbox" id="slg-googleAnalytics" data-default="0"> Google Analytics<i class="slg-icon-help"></i>
+                <span class="slg-field-hint">If set On, the plugin will generate <a href="https://support.google.com/analytics/answer/1033068?hl=en" target="_blank">events</a> for the Google Analytics when the content is unlocked.<br><strong>Note:</strong> before enabling this feature, please <a href="https://support.google.com/analytics/answer/1008015?hl=en" target="_blank">make sure</a> that your website contains the Google Analytics tracker code.</span>
+            </label>
+        </p>
+        <p>
+            <label><input type="checkbox" id="slg-demo" data-default="0"> Show Always<i class="slg-icon-help"></i>
+                <span class="slg-field-hint">If on, the locker will appear always even if it was already unlocked.</span>
+            </label>
+        </p>
+    </div>  
+    <div class="slg-setting-panel slg-setting-panel-right">
+        <div class="slg-setting-panel-button-segment">
+            <strong>Social Buttons</strong>
+            <ul>
+                <li>
+                    <label><input type="checkbox" id="slg-btn-facebook-like" class="slg-btn-ckeckbox" checked> Facebook Like</label>
+                    <div class="slg-sub-button-setting">
+                        <p>
+                            <label for="slg-btn-facebook-like-url"><strong>URL to like</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set an URL (a facebook page or website page) which the user has to like in order to unlock your content. Leave this field empty to use an URL of the page where the locker will be located.</span>
+                            </label>
+                            <input type="text" id="slg-btn-facebook-like-url" placeholder="http://sociallocker.org" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-facebook-like-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-facebook-like-title" value="like us" data-default="like us">
+                        </p> 
+                        <p>
+                            <label><input type="checkbox" id="slg-btn-facebook-like-theConfirmIssue" data-default="0"> I see the "confirm" link after a like<i class="slg-icon-help"></i>
+                            <span class="slg-field-hint">Optional. Facebook has an automatic Like-spam protection that happens if the Like button gets clicked a lot (for example, while testing the plugin). Don't worry, it will go away automatically within some hours/days. Just during the time, when Facebook asks to confirm likes on your website, turn on this option and the locker will wait the confirmation to unlock the content.</span>
+                        </label>
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li>
+                <li>
+                    <label><input type="checkbox" id="slg-btn-facebook-share" class="slg-btn-ckeckbox"> Facebook Share</label>
+                    <div class="slg-sub-button-setting">
+                        <p class="alert alert-warning" style='margin-bottom: 10px;'>
+                            <strong>Warning:</strong> if you get any errors when enabling or using the Facebook Share button, make sure that you <a href="howto/facebook-app.html" target="_blank">registered a Facebook App</a> for your website correctly.
+                        </p>
+                        <p>
+                            <label for="slg-btn-facebook-share-url"><strong>URL to share</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set an URL which the user has to share in order to unlock your content. Leave this field empty to use an URL of the page where the locker will be located.</span>
+                            </label>
+                            <input type="text" id="slg-btn-facebook-share-url" placeholder="http://sociallocker.org" data-default="">
+                        </p>
+                        <p>
+                          <label for="slg-facebook-appId">
+                            <strong>Facebook App ID</strong><i class="slg-icon-help"></i>
+                            <span class="slg-field-hint">By default, the developer app id is set. If you want to use the Facebook Share button you need to <a href="howto/facebook-app.html" target='_blank'>register another app id</a> for your website.</span>
+                          </label>
+                          <input type="text" id="slg-facebook-appId" value="117100935120196" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-facebook-share-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-facebook-share-title" value="share" data-default="share">
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li>  
+                <li>
+                    <label><input type="checkbox" id="slg-btn-google-plus" class="slg-btn-ckeckbox" checked> Google +1</label>
+                    <div class="slg-sub-button-setting">
+                        <p>
+                            <label for="slg-btn-google-plus-url"><strong>URL to +1</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set an URL which the user has to +1 in order to unlock your content. Leave this field empty to use an URL of the page where the locker will be located.</span>
+                            </label>
+                            <input type="text" id="slg-btn-google-plus-url" placeholder="http://sociallocker.org" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-google-plus-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-google-plus-title" value="+1 us" data-default="+1 us">
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li>
+                <li>
+                    <label><input type="checkbox" id="slg-btn-google-share" class="slg-btn-ckeckbox"> Google Share</label>
+                    <div class="slg-sub-button-setting">
+                        <p>
+                            <label for="slg-btn-google-share-url"><strong>URL to share</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set an URL which the user has to share in order to unlock your content. Leave this field empty to use an URL of the page where the locker will be located.</span>
+                            </label>
+                            <input type="text" id="slg-btn-google-share-url" placeholder="http://sociallocker.org" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-google-share-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-google-share-title" value="share" data-default="share">
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li>
+                <li>
+                    <label><input type="checkbox" id="slg-btn-twitter-tweet" class="slg-btn-ckeckbox" checked> Twitter Tweet</label>
+                    <div class="slg-sub-button-setting">
+                        <p class="alert alert-warning" style='margin-bottom: 10px;'>
+                            <strong>Warning:</strong> due to Twitter API limits, the locked content may be accessible for visitors who close the Tweet dialog without sharing.
+                        </p>
+                        <p>
+                            <label for="slg-btn-twitter-tweet-url"><strong>URL to tweet</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set an URL which the user has to tweet in order to unlock your content. Leave this field empty to use an URL of the page where the locker will be located.</span>
+                            </label>
+                            <input type="text" id="slg-btn-twitter-tweet-url" placeholder="http://sociallocker.share" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-twitter-tweet-title"><strong>Tweet</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Type a message to tweet. Leave this field empty to use default tweet (page title + URL).</span>
+                            </label>
+                            <textarea id="slg-btn-twitter-tweet-text" data-default=""></textarea>
+                        </p>
+                        <p>
+                            <label for="slg-btn-twitter-tweet-via"><strong>Via</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. Screen name of the user to attribute the Tweet to (without @).</span>
+                            </label>
+                            <input type="text" id="slg-btn-twitter-tweet-via" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-twitter-tweet-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-twitter-tweet-title" value="tweet" data-default="tweet">
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li>
+                <li>
+                    <label><input type="checkbox" id="slg-btn-twitter-follow" class="slg-btn-ckeckbox"> Twitter Follow</label>
+                    <div class="slg-sub-button-setting">
+                        <p>
+                            <label for="slg-btn-twitter-follow-url"><strong>User to follow</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set an URL of your Twitter profile (for example, <a href="https://twitter.com/byonepress" target="_blank">https://twitter.com/byonepress</a>).</span>
+                            </label>
+                            <input type="text" id="slg-btn-twitter-follow-url" placeholder="https://twitter.com/byonepress" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-twitter-follow-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-twitter-follow-title" value="follow us" data-default="follow us">
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li> 
+                <li>
+                    <label><input type="checkbox" id="slg-btn-linkedin-share" class="slg-btn-ckeckbox"> Linkedin Share</label>
+                    <div class="slg-sub-button-setting">
+                        <p class="alert alert-warning" style='margin-bottom: 10px;'>
+                            <strong>Warning:</strong> due to the technical bug on the LinkedIn side, the locked content may be accessible for visitors who close the share dialog without actual sharing.
+                        </p>
+                        <p>
+                            <label for="slg-btn-linkedin-share-url"><strong>URL to share</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set an URL which the user has to share in order to unlock your content. Leave this field empty to use an URL of the page where the locker will be located.</span>
+                            </label>
+                            <input type="text" id="slg-btn-linkedin-share-url" placeholder="http://sociallocker.org" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-linkedin-share-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-linkedin-share-title" value="share" data-default="share">
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li>
+                <li>
+                    <label><input type="checkbox" id="slg-btn-youtube-subscribe" class="slg-btn-ckeckbox"> Youtube Subscribe</label>
+                    <div class="slg-sub-button-setting">
+                        <p class="alert alert-warning" style='margin-bottom: 10px;'>
+                            <strong>Warning:</strong> if you get any errors when enabling or using the YouTube button, make sure that you <a href="https://www.prismascacchi.com/howto/google-app.html" target="_blank">registered a Google App</a> for your website correctly.
+                        </p>
+                        <p>
+                            <label for="slg-btn-youtube-subscribe-channelId"><strong>Channel ID</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Set a channel ID to subscribe (for example, <a href="http://www.youtube.com/channel/UCANLZYMidaCbLQFWXBC95Jg" target="_blank">UCANLZYMidaCbLQFWXBC95Jg</a>).</span>
+                            </label>
+                            <input type="text" id="slg-btn-youtube-subscribe-channelId" data-default="">
+                        </p>
+                        <p>
+                          <label for="slg-youtube-subscribe-clientId">
+                              <strong>Google Client ID</strong><i class="slg-icon-help"></i>
+                              <span class="slg-field-hint">If you want to use the Youtube Subscribe Button you need to <a href="https://www.prismascacchi.com/howto/google-app.html" target='_blank'>get a Google Client ID</a> for your website.</span>
+                          </label>
+                          <input type="text" id="slg-youtube-subscribe-clientId" value="" data-default="">
+                        </p>
+                        <p>
+                            <label for="slg-btn-youtube-subscribe-title"><strong>Button Title</strong><i class="slg-icon-help"></i>
+                                <span class="slg-field-hint">Optional. A title of the button that is situated on the covers in the themes "Secrets" and "Flat".</span>
+                            </label>
+                            <input type="text" id="slg-btn-youtube-subscribe-title" value="subscribe" data-default="subscribe">
+                        </p>
+                    </div>
+                    <button class="slg-btn-edit"></button>
+                    <button class="slg-btn-move"></button>
+                </li>
+            </ul>
+            <hr />
+            <p>
+                <label for="slg-lang"><strong>Language of Buttons</strong><i class="slg-icon-help"></i>
+                    <span class="slg-field-hint">Select the language that will be used for the social buttons in Social Lockers (refresh the page to view changes for the Like and Google buttons).</span>
+                </label>
+                <select data-default="en_US" id="slg-lang">
+                    <option value="en_US" selected="selected">English</option>     
+                    <option value="ca_ES">Catalan</option> 
+                    <option value="cs_CZ">Czech</option>  
+                    <option value="cy_GB">Welsh</option>  
+                    <option value="da_DK">Danish</option>  
+                    <option value="de_DE">German</option>  
+                    <option value="eu_ES">Basque</option>  
+                    <option value="es_ES">Spanish</option>  
+                    <option value="fi_FI">Finnish</option>  
+                    <option value="fr_FR">French</option>  
+                    <option value="gl_ES">Galician</option>  
+                    <option value="hu_HU">Hungarian</option>  
+                    <option value="it_IT">Italian</option>  
+                    <option value="ja_JP">Japanese</option>  
+                    <option value="ko_KR">Korean</option>  
+                    <option value="nb_NO">Norwegian</option>  
+                    <option value="nl_NL">Dutch</option>  
+                    <option value="pl_PL">Polish</option>  
+                    <option value="pt_BR">Portuguese (Brazil)</option>  
+                    <option value="pt_PT">Portuguese (Portugal)</option>  
+                    <option value="ro_RO">Romanian</option>  
+                    <option value="ru_RU">Russian</option>  
+                    <option value="sk_SK">Slovak</option>  
+                    <option value="sl_SI">Slovenian</option>  
+                    <option value="sv_SE">Swedish</option>  
+                    <option value="th_TH">Thai</option>  
+                    <option value="tr_TR">Turkish</option>  
+                    <option value="ku_TR">Kurdish</option>  
+                    <option value="zh_CN">Simplified Chinese (China)</option>  
+                    <option value="zh_HK">Traditional Chinese (Hong Kong)</option>  
+                    <option value="zh_TW">Traditional Chinese (Taiwan)</option>  
+                    <option value="af_ZA">Afrikaans</option>  
+                    <option value="sq_AL">Albanian</option>  
+                    <option value="hy_AM">Armenian</option>  
+                    <option value="az_AZ">Azeri</option>  
+                    <option value="be_BY">Belarusian</option>  
+                    <option value="bn_IN">Bengali</option>  
+                    <option value="bs_BA">Bosnian</option>  
+                    <option value="bg_BG">Bulgarian</option>  
+                    <option value="hr_HR">Croatian</option>  
+                    <option value="nl_BE">Dutch (Belgie)</option>  
+                    <option value="eo_EO">Esperanto</option>  
+                    <option value="et_EE">Estonian</option>  
+                    <option value="fo_FO">Faroese</option>  
+                    <option value="ka_GE">Georgian</option>  
+                    <option value="el_GR">Greek</option>  
+                    <option value="gu_IN">Gujarati</option>  
+                    <option value="hi_IN">Hindi</option>  
+                    <option value="is_IS">Icelandic</option>  
+                    <option value="id_ID">Indonesian</option>  
+                    <option value="ga_IE">Irish</option>  
+                    <option value="jv_ID">Javanese</option>  
+                    <option value="kn_IN">Kannada</option>  
+                    <option value="kk_KZ">Kazakh</option>  
+                    <option value="la_VA">Latin</option>  
+                    <option value="lv_LV">Latvian</option>  
+                    <option value="li_NL">Limburgish</option>  
+                    <option value="lt_LT">Lithuanian</option>  
+                    <option value="mk_MK">Macedonian</option>  
+                    <option value="mg_MG"> Malagasy</option>  
+                    <option value="ms_MY">Malay</option>  
+                    <option value="mt_MT">Maltese</option>  
+                    <option value="mr_IN">Marathi</option>  
+                    <option value="mn_MN">Mongolian</option>  
+                    <option value="ne_NP">Nepali</option>  
+                    <option value="pa_IN">Punjabi</option>  
+                    <option value="rm_CH">Romansh</option>  
+                    <option value="sa_IN">Sanskrit</option>  
+                    <option value="sr_RS">Serbian</option>  
+                    <option value="so_SO">Somali</option>  
+                    <option value="sw_KE">Swahili</option>  
+                    <option value="tl_PH">Filipino</option>  
+                    <option value="ta_IN">Tamil</option>  
+                    <option value="tt_RU">Tatar</option>  
+                    <option value="te_IN">Telugu</option>  
+                    <option value="ml_IN">Malayalam</option>  
+                    <option value="uk_UA">Ukrainian</option>  
+                    <option value="uz_UZ">Uzbek</option>  
+                    <option value="vi_VN">Vietnamese</option>  
+                    <option value="xh_ZA">Xhosa</option>  
+                    <option value="zu_ZA">Zulu</option>  
+                    <option value="km_KH">Khmer</option>  
+                    <option value="tg_TJ">Tajik</option>  
+                    <option value="ar_AR">Arabic</option>  
+                    <option value="he_IL">Hebrew</option>  
+                    <option value="ur_PK">Urdu</option>  
+                    <option value="fa_IR">Persian</option>  
+                    <option value="sy_SY">Syriac</option>  
+                    <option value="yi_DE">Yiddish</option>  
+                    <option value="gn_PY">Guarani</option>  
+                    <option value="qu_PE">Quechua</option>  
+                    <option value="ay_BO">Aymara</option>  
+                    <option value="se_NO">Northern Sami</option>  
+                    <option value="ps_AF">Pashto</option>  
+                </select>
+            </p>  
+            <p>
+             <label><input type="checkbox" id="slg-buttons-lazy" data-default="1" checked> Lazy Loading (beta)<i class="slg-icon-help"></i>
+                <span class="slg-field-hint">If on, social buttons are loaded only at the moment when the locker gets visible on the screen (for better performance).</span>
+             </label>
+            </p>
+            <p>
+             <label><input type="checkbox" id="slg-buttons-counter" data-default="1" checked> Show Counters<i class="slg-icon-help"></i>
+                <span class="slg-field-hint">Display counters for social buttons (Tweet Button doesn't have counters).</span>
+             </label>
+            </p>
+            <div style='padding: 10px; margin-top: 10px; background-color: #f9f9f9;'>
+                <strong>Docs</strong><br />
+                <div><a href='https://www.prismascacchi.com/howto/options.html' target='_blank'>More Options</a></div>
+                <div><a href='https://www.prismascacchi.com/howto/facebook-app.html' target='_blank'>Creating Facebook App</a></div>
+                <div><a href='https://www.prismascacchi.com/howto/google-app.html' target='_blank'>Getting Google Client ID</a></div>
+                <div><a href='https://www.prismascacchi.com/howto/events.html' target='_blank'>Using Events</a></div>
+                <div><a href='https://www.prismascacchi.com/howto/ajax.html' target='_blank'>Using Ajax</a></div>
+                <div><a href='http://support.onepress-media.com/create-ticket/' target='_blank'>Troubleshooting</a></div>
+            </div>
+        </div> 
+    </div>
+</div>
+</body>
+</html>

@@ -15,7 +15,7 @@ locker: "yes"
 locker-content: "Know the right secrets and be rich"
 locker-header: "Discover The secrets and became a web ninja"
 locker-description: With the secret you'll can metamorph into a new generation web ninja
-facebook-locker: "lantoniotrento"
+facebook-locker: "facebook.com/lantoniotrento"
 locker-tweet-url: "sitelink.com"
 locker-tweet-text: "This is the text of the tweet"
 locker-tweet-via: "lantoniotrento"

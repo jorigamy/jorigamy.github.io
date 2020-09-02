@@ -14,12 +14,12 @@ btn-link: https://github.com/jorigamy/jorigamy.github.io
 locker: "yes"
 locker-content: "Know the right secrets and be rich"
 locker-header: "Discover The secrets and became a web ninja"
-locker-description: "With the secret you'll can metamorph into a new generation web ninja"
+locker-description: With the secret you'll can metamorph into a new generation web ninja
 facebook-locker: "lantoniotrento"
-locker-tweet-url: "https://sitelink.com"
+locker-tweet-url: "sitelink.com"
 locker-tweet-text: "This is the text of the tweet"
 locker-tweet-via: "lantoniotrento"
-locker-linkedin: "https://sharelink.com"
+locker-linkedin: "sharelink.com"
 
 ---
 	
@@ -30,6 +30,12 @@ You’ll find this post in your `_posts` directory.
  Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+# Rigth social locker
+
+{% include social-locker.html %}
+
+# end rigth social locker
 
 ## Header social locker
 

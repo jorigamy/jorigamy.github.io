@@ -33,7 +33,51 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 # Rigth social locker
 
-{% include social-locker.html %}
+{% if page.locker== "yes" %}
+<script>
+jQuery(document).ready(function ($) {
+   $('.to-lock').sociallocker({
+	text:{
+	   header: '{{ page.locker-header }}',
+	   message: '{{ page.locker-description }}'
+	},
+	overlap:{
+	   mode: 'blurring'
+	},
+	facebook:{
+	   like:{
+	      url: 'https://facebook.com/{{ page.facebook-locker }}'
+	   }
+	},
+	twitter:{
+	   tweet:{
+	      url: '{{ page.locker-tweet-url }}',
+	      text: '{{ page.locker-tweet-text }}',
+	      via: '{{ page.locker-tweet-via }}'
+	   }
+	},
+	linkedin:{
+	   share:{
+	      url: '{{ page.locker-linkedin }}'
+	   }
+	},
+	buttons:{
+	   order: ["facebook-like","twitter-tweet","linkedin-share"],
+	   counters: false,
+	   lazy: false
+	}
+   });
+});
+</script>
+
+<article id="default-usage">
+    <section>
+        <div class="to-lock onp-sl-content" style="display: none; background-color: #f9f9f9; text-align: center;">
+            {{ page.locker-content }}
+        </div>
+    </section>
+</article>
+{% endif %}
 
 # end rigth social locker
 

@@ -2,6 +2,10 @@
 <script>
 	jQuery(document).ready(function ($) {
 	   $('.to-lock').sociallocker({
+		text:{
+	   	   header: '{{ page.locker-header }}',
+	   	   message: '{{ page.locker-description }}'
+		},		   
 		facebook:{
 		   like:{
 			  url: '{{ page.facebook-locker }}'

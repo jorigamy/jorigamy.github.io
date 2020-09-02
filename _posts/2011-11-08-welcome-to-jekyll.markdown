@@ -15,6 +15,10 @@ locker: "yes"
 locker-content: "Share a secret"
 locker-header: "Scopri i segreti"
 locker-description: "Diventa il re dei segreti"
+locker-tweet-url: "https://sitelink.com"
+locker-tweet-text: "This is the text of the tweet"
+locker-tweet-via: "lantoniotrento"
+
 ---
 	
 You’ll find this post in your `_posts` directory.

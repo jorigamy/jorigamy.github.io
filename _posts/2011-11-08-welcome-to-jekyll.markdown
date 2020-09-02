@@ -58,6 +58,12 @@ buttons:{
 	
 	
 	
+	
+	
+	
+	
+	
+	
 <article id="default-usage">
     <section>
             <div class="to-lock onp-sl-content" style="display: none; background-color: #f9f9f9; text-align: center;">
@@ -91,13 +97,6 @@ buttons:{
 	
 	
 	
-	
-	
-	
-	
-	
-	
-
 	
 	
 Jekyll also offers powerful support for code snippets:

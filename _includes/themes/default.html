@@ -33,6 +33,31 @@ lantoniotrento@gmail.com
 
         <link href="https://jorigamy.github.io/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>      
         <link href="https://jorigamy.github.io/assets/css/wizard.css" rel="stylesheet" type="text/css"/>  
+	<script>
+	jQuery(document).ready(function ($) {
+   	$('.to-lock').sociallocker({
+	theme: 'flat',
+	overlap:{
+	   position: 'top'
+	},
+	twitter:{
+	   follow:{
+	      url: 'https://twitter.com/lantoniotrento'
+	   }
+	},
+	linkedin:{
+	   share:{
+	      url: 'https://jorigamy.github.io'
+	   }
+	},
+	buttons:{
+	   order: ["facebook-like","twitter-tweet","twitter-follow","linkedin-share"],
+	   counters: true,
+	   lazy: true
+	}
+   	});
+	});
+	</script> 
 	{% endif %}
       <meta name="theme-color" content="#0067F4" />
 	    <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/{{ site.favicon }}" type="image/x-icon">

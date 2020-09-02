@@ -42,7 +42,8 @@ linkedin:{
 },
 buttons:{
 	   order: ["facebook-like","twitter-tweet","twitter-follow","linkedin-share"],
-	   counters: true
+	   counters: true,
+	   lazy: true
 }
    });
 });

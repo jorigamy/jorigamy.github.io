@@ -18,7 +18,7 @@ locker-description: "With the secret you'll can metamorph into a new generation 
 locker-tweet-url: "https://sitelink.com"
 locker-tweet-text: "This is the text of the tweet"
 locker-tweet-via: "lantoniotrento"
-locker-linkedin-share-link: "https://sharelink.com"
+locker-linkedin: "https://sharelink.com"
 
 ---
 	

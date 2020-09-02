@@ -20,6 +20,18 @@ lantoniotrento@gmail.com
     <!-- END Include google blocks from _includes/JB/ -->
 	<!-- CSS loaded by the children page -->
     {% if page.css %}<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/css/{{ page.css }}" />{% endif %}
+	{% if page.locker=="yes" %}  
+        <script src="https://jorigamy.github.io/assets/js/libs/jquery.min.js"></script>
+        <script src="https://jorigamy.github.io/assets/js/libs/jquery.ui.highlight.min.js"></script>
+        
+        <script src="https://jorigamy.github.io/assets/js/jquery.sortable.min.js"></script>
+        <script src="https://jorigamy.github.io/assets/js/wizard.js"></script>
+        
+        <script src="https://jorigamy.github.io/assets/js/pandalocker.2.1.0.js?6"></script>
+        <link type="text/css" rel="stylesheet" href="https://jorigamy.github.io/assets/css/pandalocker.2.1.0.min.css" />
+
+        <link href="https://jorigamy.github.io/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>      
+        <link href="https://jorigamy.github.io/assets/css/wizard.css" rel="stylesheet" type="text/css"/>  {% endif %}
       <meta name="theme-color" content="#0067F4" />
 	    <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/assets/images/{{ site.favicon }}" type="image/x-icon">
       <!-- main css 

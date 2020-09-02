@@ -26,29 +26,26 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 <script>
 jQuery(document).ready(function ($) {
    $('.to-lock').sociallocker({
-theme: 'flat',
-overlap:{
-	   position: 'top'
-},
-	twitter:{
-	   follow:{
-	      url: 'https://twitter.com/lantoniotrento'
-	   }
-},
-linkedin:{
+	text:{
+	   header: 'Scopri i segreti',
+	   message: 'Diventa il re dei segreti'
+	},
+	overlap:{
+	   mode: 'blurring'
+	},
+	linkedin:{
 	   share:{
-	      url: 'https://jorigamy.github.io'
+	      url: 'https:jorigamy.github.io'
 	   }
-},
-buttons:{
-	   order: ["facebook-like","twitter-tweet","twitter-follow","linkedin-share"],
-	   counters: true,
-	   lazy: true
-}
+	},
+	buttons:{
+	   order: ["facebook-like","twitter-tweet","linkedin-share"],
+	   counters: false,
+	   lazy: false
+	}
    });
 });
 </script>
-
 <article id="default-usage">
     <section>
         <div class="to-lock onp-sl-content" style="display: none; background-color: #f9f9f9; text-align: center;">
@@ -66,162 +63,9 @@ buttons:{
                 <p>Curabitur a rutrum enim, sit amet ultrices quam. Morbi dui leo, euismod a diam vitae, hendrerit ultricies arcu. Suspendisse tempor ultrices urna ut auctor.</p>
             </div>
         </div>
-        <div class="onp-sl onp-sl-mozilla onp-sl-flat onp-sl-social-locker onp-sl-social-buttons-frist onp-sl-contains-single-group onp-sl-social-buttons-enabled onp-sl-no-touch" style="">
-            <div class="onp-sl-outer-wrap">
-                <div class="onp-sl-inner-wrap">
-                    <div class="onp-sl-screen onp-sl-screen-default">
-                        <div class="onp-sl-group onp-sl-social-buttons onp-sl-first-group onp-sl-single-group onp-sl-group-index-1 onp-sl-has-counters onp-sl-horizontal onp-sl-lang-en_US">
-                            <div class="onp-sl-group-inner-wrap">
-                                <div class="onp-sl-text">
-                                    <div class="onp-sl-header onp-sl-strong">This content is locked</div>
-                                    <div class="onp-sl-message">Please support us, use one of the buttons below to unlock the content.</div>
-                                </div>
-                                <div class="onp-sl-control onp-sl-facebook-like onp-sl-facebook onp-sl-flip" style="z-index: 50;">
-                                    <div class="onp-sl-control-inner-wrap">
-                                        <a href="#" class="onp-sl-button-overlay" style="z-index: 50;">
-                                            <div class="onp-sl-overlay-back" style="z-index: -1;"></div>
-                                            <div class="onp-sl-overlay-front" style="z-index: 1;">
-                                                <div class="onp-sl-overlay-icon"></div>
-                                                <div class="onp-sl-overlay-line"></div>
-                                                <div class="onp-sl-overlay-text">like us</div>
-                                            </div>
-                                            <div class="onp-sl-overlay-header" style="z-index: 1;"></div>
-                                        </a>
-                                        <div class="onp-sl-social-button onp-sl-social-button-facebook-like">
-                                            <div
-                                                data-show-faces="false"
-                                                data-send="false"
-                                                data-href="https://jorigamy.github.io/jekyll/update/2011/11/08/welcome-to-jekyll.html"
-                                                data-font="tahoma"
-                                                data-colorscheme="light"
-                                                data-layout="button_count"
-                                                data-action="like"
-                                                class="fb-like fb_iframe_widget"
-                                                fb-xfbml-state="rendered"
-                                                fb-iframe-plugin-query="action=like&amp;app_id=509727322725898&amp;color_scheme=light&amp;container_width=120&amp;font=tahoma&amp;href=https%3A%2F%2Fjorigamy.github.io%2Fjekyll%2Fupdate%2F2011%2F11%2F08%2Fwelcome-to-jekyll.html&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false"
-                                            >
-                                                <span style="vertical-align: bottom; width: 69px; height: 20px;">
-                                                    <iframe
-                                                        name="f3b736073f2f7ae"
-                                                        data-testid="fb:like Facebook Social Plugin"
-                                                        title="fb:like Facebook Social Plugin"
-                                                        allowtransparency="true"
-                                                        allowfullscreen="true"
-                                                        scrolling="no"
-                                                        allow="encrypted-media"
-                                                        style="border: medium none; visibility: visible; width: 69px; height: 20px;"
-                                                        src="https://web.facebook.com/v2.5/plugins/like.php?action=like&amp;app_id=509727322725898&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df173e23cb5ee472%26domain%3Djorigamy.github.io%26origin%3Dhttps%253A%252F%252Fjorigamy.github.io%252Ff37c1ee23a05a2%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=120&amp;font=tahoma&amp;href=https%3A%2F%2Fjorigamy.github.io%2Fjekyll%2Fupdate%2F2011%2F11%2F08%2Fwelcome-to-jekyll.html&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;show_faces=false"
-                                                        class=""
-                                                        width="1000px"
-                                                        height="1000px"
-                                                        frameborder="0"
-                                                    ></iframe>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="onp-sl-control onp-sl-twitter-tweet onp-sl-twitter onp-sl-flip" style="z-index: 46;">
-                                    <div class="onp-sl-control-inner-wrap">
-                                        <a href="#" class="onp-sl-button-overlay" style="z-index: 46;">
-                                            <div class="onp-sl-overlay-back" style="z-index: -1;"></div>
-                                            <div class="onp-sl-overlay-front" style="z-index: 1;">
-                                                <div class="onp-sl-overlay-icon"></div>
-                                                <div class="onp-sl-overlay-line"></div>
-                                                <div class="onp-sl-overlay-text">tweet</div>
-                                            </div>
-                                            <div class="onp-sl-overlay-header" style="z-index: 1;"></div>
-                                        </a>
-                                        <div class="onp-sl-social-button onp-sl-social-button-twitter-tweet">
-                                            <iframe
-                                                id="twitter-widget-1"
-                                                scrolling="no"
-                                                allowtransparency="true"
-                                                allowfullscreen="true"
-                                                class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
-                                                style="position: static; visibility: visible; width: 60px; height: 20px;"
-                                                title="Twitter Tweet Button"
-                                                src="https://platform.twitter.com/widgets/tweet_button.2d7d9a6d04538bf11c7b23641e75738c.en.html#dnt=false&amp;id=twitter-widget-1&amp;lang=en&amp;original_referer=https%3A%2F%2Fjorigamy.github.io%2Fjekyll%2Fupdate%2F2011%2F11%2F08%2Fwelcome-to-jekyll.html&amp;size=m&amp;text=2011%20Welcome%20to%20Jekyll!%20%7C%20Jorigamy&amp;time=1599041244505&amp;type=share&amp;url=https%3A%2F%2Fjorigamy.github.io%2Fjekyll%2Fupdate%2F2011%2F11%2F08%2Fwelcome-to-jekyll.html"
-                                                data-url="https://jorigamy.github.io/jekyll/update/2011/11/08/welcome-to-jekyll.html"
-                                                frameborder="0"
-                                            ></iframe>
-                                            <div class="onp-sl-feature-overlay"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="onp-sl-control onp-sl-twitter-follow onp-sl-twitter onp-sl-flip" style="z-index: 42;">
-                                    <div class="onp-sl-control-inner-wrap">
-                                        <a href="#" class="onp-sl-button-overlay" style="z-index: 42;">
-                                            <div class="onp-sl-overlay-back" style="z-index: -1;"></div>
-                                            <div class="onp-sl-overlay-front" style="z-index: 1;">
-                                                <div class="onp-sl-overlay-icon"></div>
-                                                <div class="onp-sl-overlay-line"></div>
-                                                <div class="onp-sl-overlay-text">follow us</div>
-                                            </div>
-                                            <div class="onp-sl-overlay-header" style="z-index: 1;"></div>
-                                        </a>
-                                        <div class="onp-sl-social-button onp-sl-social-button-twitter-follow">
-                                            <iframe
-                                                id="twitter-widget-2"
-                                                scrolling="no"
-                                                allowtransparency="true"
-                                                allowfullscreen="true"
-                                                class="twitter-follow-button twitter-follow-button-rendered"
-                                                style="position: static; visibility: visible; width: 219px; height: 20px;"
-                                                title="Twitter Follow Button"
-                                                src="https://platform.twitter.com/widgets/follow_button.2d7d9a6d04538bf11c7b23641e75738c.en.html#dnt=false&amp;id=twitter-widget-2&amp;lang=en&amp;screen_name=lantoniotrento&amp;show_count=true&amp;show_screen_name=true&amp;size=m&amp;time=1599041244506"
-                                                data-screen-name="lantoniotrento"
-                                                frameborder="0"
-                                            ></iframe>
-                                            <div class="onp-sl-feature-overlay"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="onp-sl-control onp-sl-linkedin-share onp-sl-linkedin onp-sl-flip" style="z-index: 38;">
-                                    <div class="onp-sl-control-inner-wrap">
-                                        <a href="#" class="onp-sl-button-overlay" style="z-index: 38;">
-                                            <div class="onp-sl-overlay-back" style="z-index: -1;"></div>
-                                            <div class="onp-sl-overlay-front" style="z-index: 1;">
-                                                <div class="onp-sl-overlay-icon"></div>
-                                                <div class="onp-sl-overlay-line"></div>
-                                                <div class="onp-sl-overlay-text">share</div>
-                                            </div>
-                                            <div class="onp-sl-overlay-header" style="z-index: 1;"></div>
-                                        </a>
-                                        <div class="onp-sl-social-button onp-sl-social-button-linkedin-share">
-                                            <span
-                                                class="IN-widget"
-                                                style="display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px; text-align: center;"
-                                                data-lnkd-debug='<script type="IN/Share+init" data-onsuccess="OPanda_LinkedinShare_Callback" data-success="OPanda_LinkedinShare_Callback" data-counter="right" data-url="https://jorigamy.github.io/"></script>'
-                                            >
-                                                <span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: bottom !important; font-size: 1px !important;">
-                                                    <button class="IN-2bc0215c-7188-4274-b598-1969e06d4d7c-1G9ISYhSF8XoOmdcl0yKDu">
-                                                        <xdoor-icon aria-hidden="true">
-                                                            <svg viewBox="0 0 24 24" width="24px" height="24px" x="0" y="0" preserveAspectRatio="xMinYMin meet">
-                                                                <g style="fill: currentColor;">
-                                                                    <rect x="-0.003" style="fill: none;" width="24" height="24"></rect>
-                                                                    <path
-                                                                        style=""
-                                                                        d="M20,2h-16c-1.1,0-2,0.9-2,2v16c0,1.1,0.9,2,2,2h16c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2zM8,19h-3v-9h3V19zM6.5,8.8C5.5,8.8,4.7,8,4.7,7s0.8-1.8,1.8-1.8S8.3,6,8.3,7S7.5,8.8,6.5,8.8zM19,19h-3v-4c0-1.4-0.6-2-1.5-2c-1.1,0-1.5,0.8-1.5,2.2V19h-3v-9h2.9v1.1c0.5-0.7,1.4-1.3,2.6-1.3c2.3,0,3.5,1.1,3.5,3.7V19z"
-                                                                    ></path>
-                                                                </g>
-                                                            </svg>
-                                                        </xdoor-icon>
-                                                        Share
-                                                    </button>
-                                                </span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
-</article>	
+</article>
+
 Jekyll also offers powerful support for code snippets:
 
 {% highlight javascript %}

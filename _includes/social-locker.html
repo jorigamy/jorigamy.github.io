@@ -1,32 +1,33 @@
 {% if page.locker== "yes" %}
 <script>
-jQuery(document).ready(function ($) {
-   $('.to-lock').sociallocker({
-	text:{
-	   header: '{{ page.locker-header }}',
-	   message: '{{ page.locker-description }}'
-	},
-	overlap:{
-	   mode: 'blurring'
-	},
-	facebook:{
-	   like:{
-	      url: 'https://facebook.com/{{ page.facebook-locker }}'
-	   }
-	},
-	linkedin:{
-	   share:{
-	      url: '{{ page.locker-linkedin }}'
-	   }
-	},
-	buttons:{
-	   order: ["facebook-like","twitter-tweet","linkedin-share"],
-	   counters: false,
-	   lazy: false
-	}
-   });
-});
+	jQuery(document).ready(function ($) {
+	   $('.to-lock').sociallocker({
+		facebook:{
+		   like:{
+			  url: '{{ page.facebook-locker }}'
+		   }
+		},
+		twitter:{
+		   tweet:{
+			  url: '{{ page.locker-tweet-url }}',
+			  text: '{{ page.locker-tweet-text }}',
+			  via: '{{ page.locker-tweet-via }}'
+		   }
+		},
+		linkedin:{
+		   share:{
+			  url: '{{ page.locker-linkedin }}'
+		   }
+		},
+		buttons:{
+		   order: ["facebook-like","twitter-tweet","linkedin-share"],
+		   counters: true,
+		   lazy: true
+		}
+	   });
+	});
 </script>
+
 
 <article id="default-usage">
     <section>

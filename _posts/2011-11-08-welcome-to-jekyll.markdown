@@ -33,9 +33,14 @@ jQuery(document).ready(function ($) {
 	overlap:{
 	   mode: 'blurring'
 	},
+	facebook:{
+	   like:{
+	      url: 'https://facebook.com/lantoniotrento'
+	   }
+	},
 	linkedin:{
 	   share:{
-	      url: 'https:jorigamy.github.io'
+	      url: 'https://jorigamy.github.io'
 	   }
 	},
 	buttons:{

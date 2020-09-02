@@ -23,6 +23,32 @@ You’ll find this post in your `_posts` directory.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
+<script>
+jQuery(document).ready(function ($) {
+   $('.to-lock').sociallocker({
+theme: 'flat',
+overlap:{
+	   position: 'top'
+},
+	twitter:{
+	   follow:{
+	      url: 'https://twitter.com/lantoniotrento'
+	   }
+},
+linkedin:{
+	   share:{
+	      url: 'https://jorigamy.github.io'
+	   }
+},
+buttons:{
+	   order: ["facebook-like","twitter-tweet","twitter-follow","linkedin-share"],
+	   counters: true,
+	   lazy: true
+}
+   });
+});
+</script>
+	
 Jekyll also offers powerful support for code snippets:
 
 {% highlight javascript %}

@@ -12,7 +12,7 @@ btn-icon: fa-github
 btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io
 locker: "yes"
-locker-content: "<p>Know the right secrets and be rich</p><p><b>Become a web ninja</b></p>"
+locker-content: "Know the right secrets and be rich"
 locker-header: "Discover The secrets and became a web ninja"
 locker-description: "With the secret you'll can metamorph into a new generation web ninja"
 locker-tweet-url: "https://sitelink.com"

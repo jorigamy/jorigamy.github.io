@@ -36,27 +36,20 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 jQuery(document).ready(function ($) {
    $('.to-lock').sociallocker({
 	text:{
-	   header: '{{ page.locker-header }}',
-	   message: '{{ page.locker-description }}'
+	   header: 'Scopri i segreti',
+	   message: 'Diventa il re dei segreti'
 	},
 	overlap:{
 	   mode: 'blurring'
 	},
 	facebook:{
 	   like:{
-	      url: 'https://facebook.com/{{ site.facebook-locker }}'
-	   }
-	},
-	twitter:{
-	   tweet:{
-	      url: '{{ page.locker-tweet-url }}',
-	      text: '{{ page.locker-tweet-text }}',
-	      via: '{{ page.locker-tweet-via }}'
+	      url: 'https://facebook.com/lantoniotrento'
 	   }
 	},
 	linkedin:{
 	   share:{
-	      url: '{{ page.locker-linkedin }}'
+	      url: 'https://jorigamy.github.io'
 	   }
 	},
 	buttons:{
@@ -67,11 +60,22 @@ jQuery(document).ready(function ($) {
    });
 });
 </script>
-
 <article id="default-usage">
     <section>
         <div class="to-lock onp-sl-content" style="display: none; background-color: #f9f9f9; text-align: center;">
-            {{ page.locker-content }}
+            <div class="header">
+                <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing</strong></p>
+                <p>
+                    Maecenas sed consectetur tortor. Morbi non vestibulum eros, at posuere nisi praesent consequat.
+                </p>
+            </div>
+            <div class="image">
+                <img src="img/image.jpg" alt="Preview image" /><br />
+                <i>Aenean vel sodales sem. Morbi et felis eget felis vulputate placerat.</i>
+            </div>
+            <div class="footer">
+                <p>Curabitur a rutrum enim, sit amet ultrices quam. Morbi dui leo, euismod a diam vitae, hendrerit ultricies arcu. Suspendisse tempor ultrices urna ut auctor.</p>
+            </div>
         </div>
     </section>
 </article>

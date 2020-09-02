@@ -19,7 +19,7 @@ facebook-locker: "lantoniotrento"
 locker-tweet-url: "https://sitelink.com"
 locker-tweet-text: "This is the text of the tweet"
 locker-tweet-via: "lantoniotrento"
-locker-linkedin: "sharelink.com"
+locker-linkedin: "https://sharelink.com"
 
 ---
 	

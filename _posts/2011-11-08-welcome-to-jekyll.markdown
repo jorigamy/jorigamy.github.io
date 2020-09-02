@@ -13,8 +13,8 @@ btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io
 locker: "yes"
 locker-content: "<p>With the secret you'll can metamorph into a new generation web ninja</p><h1>Testing the locker</h1>"
-locker-header: "Discover The secrets and became a web ninja"
-locker-description: "Discover The secrets and became a web ninja"
+locker-header: Discover The secrets and became a web ninja
+locker-description: Discover The secrets and became a web ninja
 facebook-locker: "https://facebook.com/lantoniotrento"
 locker-tweet-url: "sitelink.com"
 locker-tweet-text: "This is the text of the tweet"

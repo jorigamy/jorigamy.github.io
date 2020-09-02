@@ -55,17 +55,17 @@ jQuery(document).ready(function ($) {
     <section>
         <div class="to-lock onp-sl-content" style="display: none; background-color: #f9f9f9; text-align: center;">
             <div class="header">
-                <p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing</strong></p>
+                <p><strong>Questo segreto è difficile da scoprire</strong></p>
                 <p>
-                    Maecenas sed consectetur tortor. Morbi non vestibulum eros, at posuere nisi praesent consequat.
+                    Finalmente potremo gestire i nostri segreti con tutti e staranno zitti
                 </p>
             </div>
             <div class="image">
                 <img src="img/image.jpg" alt="Preview image" /><br />
-                <i>Aenean vel sodales sem. Morbi et felis eget felis vulputate placerat.</i>
+                <i>E il momento di essere i migliori</i>
             </div>
             <div class="footer">
-                <p>Curabitur a rutrum enim, sit amet ultrices quam. Morbi dui leo, euismod a diam vitae, hendrerit ultricies arcu. Suspendisse tempor ultrices urna ut auctor.</p>
+                <p>E spezzare tutte le barriere che ti limitano la felicità.</p>
             </div>
         </div>
     </section>

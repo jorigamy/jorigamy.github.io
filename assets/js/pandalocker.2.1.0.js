@@ -1619,7 +1619,7 @@
         /**
          * Returns a new, reduced relative URL instance using this as the baseUrl.
          * The URL passed in will be compared to the baseUrl with the goal of
-         * returning a reduced-down URL to one that’s relative to the base (this).
+         * returning a reduced-down URL to one thatâ€™s relative to the base (this).
          * This method is basically the opposite of resolve.
          *
          * @public
@@ -1781,8 +1781,8 @@
          *
          * @private
          * @method  _normalizePath
-         * @param   {String}    path            — the path String to normalize
-         * @return  {String}    normalizedPath  — the normalized path String
+         * @param   {String}    path            â€” the path String to normalize
+         * @return  {String}    normalizedPath  â€” the normalized path String
          */
         _normalizePath : function (path) {
 

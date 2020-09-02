@@ -37,11 +37,6 @@ To add new posts, simply add a file in the `_posts` directory that follows the c
 
 # end rigth social locker
 
-## Header social locker
-
- {% include social-locker-wordking-example.html %}
-
-## End mai social locker
 
 Jekyll also offers powerful support for code snippets:
 

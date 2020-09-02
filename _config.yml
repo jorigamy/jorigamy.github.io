@@ -51,8 +51,6 @@ author :
   google: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
   feedburner :
 
-facebook-locker: lantoniotrento
-
 google :
     tracking_id : 'UA-109407288-1' # Id google analitics
     optimize_id : 'GTM-MPKVJB9' # I'id di google optimize per A/B Testing

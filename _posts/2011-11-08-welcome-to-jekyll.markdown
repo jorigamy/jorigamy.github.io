@@ -13,6 +13,8 @@ btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io
 locker: "yes"
 locker-content: "Share a secret"
+locker-header: "Scopri i segreti"
+locker-description: "Diventa il re dei segreti"
 ---
 	
 You’ll find this post in your `_posts` directory.
@@ -23,53 +25,7 @@ You’ll find this post in your `_posts` directory.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<script>
-jQuery(document).ready(function ($) {
-   $('.to-lock').sociallocker({
-	text:{
-	   header: 'Scopri i segreti',
-	   message: 'Diventa il re dei segreti'
-	},
-	overlap:{
-	   mode: 'blurring'
-	},
-	facebook:{
-	   like:{
-	      url: 'https://facebook.com/lantoniotrento'
-	   }
-	},
-	linkedin:{
-	   share:{
-	      url: 'https://jorigamy.github.io'
-	   }
-	},
-	buttons:{
-	   order: ["facebook-like","twitter-tweet","linkedin-share"],
-	   counters: false,
-	   lazy: false
-	}
-   });
-});
-</script>
-<article id="default-usage">
-    <section>
-        <div class="to-lock onp-sl-content" style="display: none; background-color: #f9f9f9; text-align: center;">
-            <div class="header">
-                <p><strong>Questo segreto è difficile da scoprire</strong></p>
-                <p>
-                    Finalmente potremo gestire i nostri segreti con tutti e staranno zitti
-                </p>
-            </div>
-            <div class="image">
-                <img src="img/image.jpg" alt="Preview image" /><br />
-                <i>E il momento di essere i migliori</i>
-            </div>
-            <div class="footer">
-                <p>E spezzare tutte le barriere che ti limitano la felicità.</p>
-            </div>
-        </div>
-    </section>
-</article>
+{% include social-locker.html %}
 
 Jekyll also offers powerful support for code snippets:
 

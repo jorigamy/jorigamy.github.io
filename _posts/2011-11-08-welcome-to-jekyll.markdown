@@ -15,7 +15,6 @@ locker: "yes"
 locker-content: "Know the right secrets and be rich"
 locker-header: "Discover The secrets and became a web ninja"
 locker-description: <p>With the secret you'll can metamorph into a new generation web ninja</p><h1>Testing the locker</h1>    
-    <div style="padding-bottom:5em;" class="section-title col-lg-12 col-md-12 ml-auto mr-auto">
             <div class="jumbotron">
                     <h1 class="display-3">Jumbotron title.</h1>
                     <p class="lead">A big title with a great description.</p>

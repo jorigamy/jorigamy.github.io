@@ -1,7 +1,7 @@
 {% include themes/nav-bar.html %}
 <!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{% if page.head-img %}{{ page.head-img }}{% else %}shard-1-5x-3.png{% endif %}" alt="Shard" class="shard">
 <!-- Welcome Section -->
-<div class="welcome d-flex justify-content-center flex-column">
+<div onload="urlChanger()" class="headerimage d-flex justify-content-center flex-column">
     <div class="inner-wrapper mt-auto mb-auto">
         <h1 class="slide-in">{{ page.title }}</h1>
         <p class="slide-in">{{ page.tagline }}</p>
@@ -12,6 +12,13 @@
             <p>Made By {{ site.author.name }} - Tagged with  {{page.tags | array_to_sentence_string | replace:'and',''}}</p>
     </div>
 </div>
+{% if page.bkimg == true %}
+  <script>
+    function urlChanger() {
+      document.getElementById("headerimage").style.backgroundImage = "url('{{page.bkimg}}')";
+    }
+  </script>
+{% endif %}
 
 <!-- Page Content -->
 <div class="page-content">

@@ -1,4 +1,4 @@
-<!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.floating }}" alt="Shard" class="shard">
+<!-- Shards -->{% if page.floating == true %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.floating }}" alt="Floating image {{page.tagline}}" class="shard">{% endif %}
 <!-- Welcome Section -->
 {% if page.bkimg == true %}
   <script>

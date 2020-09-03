@@ -50,7 +50,7 @@ p.card-text {
     animation: rubberBand 1s;
 }
 
-jackInTheBox-element:hover { /* Enable a animate.css trigger when hover  */
+.jackInTheBox-element:hover { /* Enable a animate.css trigger when hover  */
     -webkit-animation: jackInTheBox 1s;
     animation: jackInTheBox 1s;
 }

@@ -3,8 +3,7 @@
 {% if page.bkimg == true %}
   <script>
     function urlChanger() {
-      document.body.style.backgroundColor = "#f3f3f3";
-      document.body.style.backgroundImage = "url('{{page.bkimg}}')";
+      document.getElementById("headerimage").style.backgroundImage = "url('{{page.bkimg}}')";
     }
   </script>
 {% endif %}

@@ -1,5 +1,5 @@
 {% include themes/nav-bar.html %}
-<!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{% if page.head-img %}{{ page.head-img }}{% else %}shard-1-5x-3.png{% endif %}" alt="Shard" class="shard">
+<!-- Shards --><img src="{% if site.statically == 'yes' %}{{ site.cdnurl }}/{% else %}{{ site.url }}/{{ site.baseurl }}{% endif %}assets/images/{% if page.head-img %}{{ page.head-img }}{% else %}shard-1-5x-3.png{% endif %}" alt="Shard" class="shard">
 <!-- Welcome Section -->
 <div onload="urlChanger()" class="headerimage d-flex justify-content-center flex-column">
     <div class="inner-wrapper mt-auto mb-auto">

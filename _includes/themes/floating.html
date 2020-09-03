@@ -1,6 +1,15 @@
 <!-- Shards --><img src="{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.floating }}" alt="Shard" class="shard">
 <!-- Welcome Section -->
-<div class="welcome d-flex justify-content-center flex-column">
+{% if page.bkimg == true %}
+  <script>
+    function urlChanger() {
+      document.body.style.backgroundColor = "#f3f3f3";
+      document.body.style.backgroundImage = "url('{{page.bkimg}}')";
+    }
+  </script>
+{% endif %}
+
+<div onload="urlChanger()" class="headerimage d-flex justify-content-center flex-column">
 
         <div class="inner-wrapper mt-auto mb-auto">
           <h1 class="hidden-sm-down slide-in">{{page.title}}</h1>

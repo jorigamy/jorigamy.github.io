@@ -1,4 +1,4 @@
-<!-- Shards -->{% if page.floating %}<img src="{% if site.statically == 'yes' %}https://cdn.statically.io/img/{{ site.url }}/{% else %}{{ site.url }}/{{ site.baseurl }}{% endif %}{{ page.floating }}" alt="Floating image {{page.tagline}}" class="shard">{% endif %}
+<!-- Shards -->{% if page.floating %}<img src="{% if site.statically == 'yes' %}{{ site.cdnurl }}/{% else %}{{ site.url }}/{{ site.baseurl }}{% endif %}assets/images{{ page.floating }}" alt="Floating image {{page.tagline}}" class="shard">{% endif %}
 <!-- Welcome Section -->
 {% if page.bkimg == true %}
   <script>

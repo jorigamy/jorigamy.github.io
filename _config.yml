@@ -36,7 +36,7 @@ excerpt_separator: "<!--more-->"
 # Site settings
 
 logo: /assets/images/shard-1-5x-3.png
-favicon: flavicon.png
+favicon: https://cdn.statically.io/favicons/jekyllrb.com
 navbar-logo: jorigamy-logo.svg
 
 author :
@@ -92,6 +92,7 @@ addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 #   css: ''
 #   js: ''
 
+statically: 'yes'
 
 algolia:
   application_id: 'GU8HT2BGPU'

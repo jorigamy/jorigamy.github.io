@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-half
 title:  "2011 Welcome to Jekyll!"
 tagline: "Hello world from a new Jekyll blog"
 date:   2011-11-08 22:43:35 +0100

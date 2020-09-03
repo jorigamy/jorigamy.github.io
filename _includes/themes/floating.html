@@ -1,12 +1,6 @@
 <!-- Shards -->{% if page.floating %}<img src="{% if site.statically == 'yes' %}{{ site.cdnurl }}/{% else %}{{ site.url }}/{{ site.baseurl }}{% endif %}assets/images/{{ page.floating }}" alt="Floating image {{page.tagline}}" class="shard">{% endif %}
 <!-- Welcome Section -->
-{% if page.bkimg == true %}
-  <script>
-    function urlChanger() {
-      document.getElementById("headerimage").style.backgroundImage = "url('{{page.bkimg}}')";
-    }
-  </script>
-{% endif %}
+
 
 <div onload="urlChanger()" class="headerimage d-flex justify-content-center flex-column">
 
@@ -20,3 +14,10 @@
 
 
 </div>
+{% if page.bkimg == true %}
+  <script>
+    function urlChanger() {
+      document.getElementById("headerimage").style.backgroundImage = "url('{{page.bkimg}}')";
+    }
+  </script>
+{% endif %}

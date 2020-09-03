@@ -202,3 +202,74 @@ Everyone, through his github account is mentioned below:
 - [@antoniotrento](https://github.com/antoniotrento) to make all the theme for Jekyll
 
 [![GitHub forks](https://img.shields.io/github/forks/badges/shields.svg?style=social&label=Fork)](https://github.com/jorigamy/jorigamy.github.io) <!--[![GitHub stars](https://img.shields.io/github/stars/badges/shields.svg?style=social&label=Stars)](https://github.com/jorigamy/jorigamy.github.io) -->[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/jorigamy) [![Follow me on Steem](https://img.shields.io/badge/Follow&#32;me-on&#32;Steem-orange.svg)](https://steemit.com/@antoniotrento)
+
+
+
+
+
+
+---
+layout: index
+title: Home
+tagline:
+css:
+js: bg-color.js
+keywords:
+canonical:
+img:
+image: assets/images/shard-1-5x-3.png
+custom-head: <meta name="theme-color" content="#0067F4" /> <!-- Load custom html code on the head of the site -->
+---
+
+---
+layout: page
+title: Blog
+tagline: All the <b style='color :#007bff; font-weight:900!important;'>posts</b> of jorigamy.github.io theme.
+group: "navigation"
+tags :
+author : Antonio Trento
+css:
+js:
+keywords:
+img:
+image: assets/images/antonio-trento-logo-social.jpg
+floating: shard-1-5x-3.png
+btn-icon: fa-github
+btn-text: fork
+btn-link: https://github.com/jorigamy/jorigamy.github.io
+---
+
+---
+layout: post
+title:  "2011 Welcome to Jekyll!"
+tagline: "Hello world from a new Jekyll blog"
+date:   2011-11-08 22:43:35 +0100
+categories: jekyll update
+tags: [ jekyll, update ]
+img: 1.jpg
+image: assets/images/1.jpg
+floating: shard-1-5x-3.png
+btn-icon: fa-github
+btn-text: fork
+btn-link: https://github.com/jorigamy/jorigamy.github.io
+locker: "yes"
+locker-content: "<p>With the secret you'll can metamorph into a new generation web ninja</p><h1>Testing the locker</h1>
+                            <div class='jumbotron'>
+                                    <h1 style='font-weight: 500;' class='display-3'>Hello, world!</h1>
+                                    <p style='font-size: 1.50rem; font-weight: 300;' class='lead'>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                    <hr class='my-4'>
+                                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                                    <p class='lead'>
+                                      <a class='btn btn-outline-dark btn-lg' href='#' role='button'><i class='fa fa-star mr-1'></i> Learn more</a>
+                                    </p>
+                            </div>
+"
+locker-header: "Discover The secrets and became a web ninja"
+locker-description: "Discover The secrets and became a web ninja"
+facebook-locker: "https://facebook.com/lantoniotrento"
+locker-tweet-url: "sitelink.com"
+locker-tweet-text: "This is the text of the tweet"
+locker-tweet-via: "lantoniotrento"
+locker-linkedin: "sharelink.com"
+
+---

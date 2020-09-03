@@ -20,8 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Jorigamy is a porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> a bootstrap4 starter template intalled for Jekyll static website generator.
 baseurl: "" # the subpath of your site and 7, e.g. baseurl: "blog/"
 url: "https://jorigamy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-cdnurl: "https://cdn.statically.io/img/jorigamy.github.io"
 excerpt_separator: "<!--more-->"
+
+#Use statically.io to serve images
+cdnurl: "https://cdn.statically.io/img/jorigamy.github.io"
+statically: 'yes'
 
 
 #Permalinks
@@ -92,7 +95,6 @@ addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 #   css: ''
 #   js: ''
 
-statically: 'yes'
 
 algolia:
   application_id: 'GU8HT2BGPU'

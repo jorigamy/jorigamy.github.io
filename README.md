@@ -8,7 +8,7 @@
 
 When I say completely free I mean exactly free my friend! No hidden fees no marketing nothing at all!
 
-It's a personal project that **I also use to have free hosting on a commercial level for my websites** and I want to share it with the web!
+It's a personal project that **I also use to have free hosting on a for my websites** and I want to share it with the web!
 
 To use it you can:
 
@@ -166,6 +166,8 @@ Visit documentation to understad how to use it: http://prismjs.com/
 
 - [x] deploy to Netlify button
 - [x] deploy to cloudcannon
+- [x] use https://cdnjs.com/ to load js/css componets
+- [ ] implement https://statically.io/ loading
 - [ ] deploy to heroku button
 - [ ] Expand wiki
 - [x] Add maichimp api in config.yml file

@@ -18,7 +18,7 @@ title: <b style='color :#007bff; font-weight:900!important;'>Jori</b><span>gamy<
 email: jorigamy@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Jorigamy is a porting of <a href="https://designrevision.com/download/shards" rel="nofollow">Shards UI toolkit</a> a bootstrap4 starter template intalled for Jekyll static website generator.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site and 7, e.g. baseurl: "blog/"
 url: "https://jorigamy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 excerpt_separator: "<!--more-->"

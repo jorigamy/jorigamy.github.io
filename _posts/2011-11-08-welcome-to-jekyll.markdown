@@ -8,7 +8,7 @@ tags: [ jekyll, update ]
 img: 1.jpg
 image: assets/images/1.jpg
 bkimg: assets/images/1.jpg
-floating: assets/images/shard-1-5x-3.png
+floating: shard-1-5x-3.png
 btn-icon: fa-github
 btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io

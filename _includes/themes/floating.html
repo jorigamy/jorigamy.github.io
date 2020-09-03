@@ -2,7 +2,7 @@
 <!-- Welcome Section -->
 
 
-<div onload="urlChanger()" class="headerimage d-flex justify-content-center flex-column">
+<div {% if page.bkimg == true %}onload="urlChanger()"{% endif %} class="headerimage d-flex justify-content-center flex-column">
 
         <div class="inner-wrapper mt-auto mb-auto">
           <h1 class="hidden-sm-down slide-in">{{page.title}}</h1>

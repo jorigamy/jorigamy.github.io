@@ -12,7 +12,19 @@ btn-icon: fa-github
 btn-text: fork
 btn-link: https://github.com/jorigamy/jorigamy.github.io
 locker: "yes"
-locker-content: "<p>With the secret you'll can metamorph into a new generation web ninja</p><h1>Testing the locker</h1>"
+locker-content: "<p>With the secret you'll can metamorph into a new generation web ninja</p><h1>Testing the locker</h1>                       <div style ="padding-top:10em" class="padding-top-10">
+
+                            <div class="jumbotron">
+                                    <h1 style="font-weight: 500;" class="display-3">Hello, world!</h1>
+                                    <p style="font-size: 1.50rem; font-weight: 300;" class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                    <hr class="my-4">
+                                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                                    <p class="lead">
+                                      <a class="btn btn-outline-dark btn-lg" href="#" role="button"><i class="fa fa-star mr-1"></i> Learn more</a>
+                                    </p>
+                            </div>
+
+"
 locker-header: "Discover The secrets and became a web ninja"
 locker-description: "Discover The secrets and became a web ninja"
 facebook-locker: "https://facebook.com/lantoniotrento"

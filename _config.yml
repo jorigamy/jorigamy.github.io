@@ -82,9 +82,9 @@ twitter:
   username: jorigamy
 
 facebook:
- app_id: 509727322725898 #the app id from https://developers.facebook.com/
- admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
- publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ app_id:  #the app id from https://developers.facebook.com/
+ admins:  #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ publisher:  #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
 
 mailchimp: https://github.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=bb4fd5f540 # the link of the embed signup form generated from mailchimp into the html code of the embed form
 

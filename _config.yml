@@ -55,10 +55,10 @@ author :
   feedburner :
 
 google :
-    tracking_id : 'UA-109407288-1' # Id google analitics
-    optimize_id : 'GTM-MPKVJB9' # I'id di google optimize per A/B Testing
-    tagmanager_id: 'GTM-5VNXBR4' # id di google tag manager
-    ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
+    tracking_id :  # Id google analitics
+    optimize_id :  # I'id di google optimize per A/B Testing
+    tagmanager_id:  # id di google tag manager
+    ad_client:  # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
 disqus :
     short_name : jorigamy
@@ -97,7 +97,7 @@ addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 
 
 algolia:
-  application_id: 'GU8HT2BGPU'
+  application_id: 
   index_name:     'your_index_name' # I'm looking to understand how it can be set the index_name of agolia https://www.algolia.com/apps/GU8HT2BGPU/dashboard and https://community.algolia.com/jekyll-algolia/getting-started.html
 
 cloudinary:
